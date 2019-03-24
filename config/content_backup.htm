@@ -536,7 +536,7 @@ COPY TO CLIPBOARD	</pre>
 <h4>Q5 ungit 無法使用</h4>
 <p><img alt="" height="429" src="/images/ungit set 1.png" width="800"/></p>
 <p><img alt="" height="429" src="/images/ungit set 2.png" width="800"/></p>
-<p>必須先到y的home進行config綁定的更改，這樣才能達到用ungit傳送資料的步驟。</p><h1>V-rep</h1>
+<p>必須先到y的home進行user config綁定的更改，這樣才能達到用ungit傳送資料的步驟。</p><h1>V-rep</h1>
 <h1>Experience</h1>
 <h2>20190222 week1</h2>
 <h3>40623201-1</h3>
@@ -557,7 +557,29 @@ COPY TO CLIPBOARD	</pre>
 <h3>40623201-3</h3>
 <h3>40623204-3</h3>
 <h3>40623217-3</h3>
-<h3>40623223-3</h3>
+<p>上課內容:</p>
+<p>如何使用 ungit 進行檔案推送及版本的推還確認</p>
+<p>1.先在y的home內部進行user config綁定</p>
+<p><img alt="" height="429" src="/images/ungit set 1.png" width="800"/></p>
+<p><img alt="" height="429" src="/images/ungit set 2.png" width="800"/></p>
+<p>2.到python wsgi.py動態網站更改部分的資料</p>
+<p>3.接著開啟ungit後進行commit上傳</p>
+<p><img alt="" height="429" src="/images/ungit commit.png" width="800"/></p>
+<p>4.上傳後再push即可更改成功</p>
+<p><img alt="" height="429" src="/images/ungit push.png" width="800"/></p>
+<p>5.到warehousing尋找commit recond</p>
+<p><img alt="" height="429" src="/images/ungit recond.png" width="800"/></p>
+<p>如何運用ungit回推版本:</p>
+<p>1.先開啟ungit，並將某一個歷程編上tag</p>
+<p><img alt="" height="429" src="/images/git checkout 1.png" width="800"/></p>
+<p>2.使用指令 git checkout 到所要的歷程，如下圖是到expw4-18，再開啟python wsgi.py確定是否回歸到版本。</p>
+<p><img alt="" height="429" src="/images/git checkout 3.png" width="800"/></p>
+<p>3.接著回到當前版本需要使用指令 git checkout -- config/content.htm ， 接著用git checkout delprogress回到當前版本。</p>
+<p><img alt="" height="429" src="/images/git checkout 4.png" width="800"/></p>
+<p>4.再次回到python wsgi.py內察看是否回到當前版本</p>
+<p><img alt="" height="429" src="/images/git checkout 2.png" width="800"/></p>
+<p>心得:</p>
+<p>經過這星期的ungit教學，讓我發現到這東西的存在可以很簡單的進行傳送資料到倉儲外，還能讓自己去確定之前的版本是否可以取得，且能夠在需要的時候回到當初的事物狀況加以編輯，算是目前讓我覺得非常方便的操作。</p><h3>40623223-3</h3>
 <h3>40623229-3</h3>
 <h3>40623232-3</h3>
 <h3>40623242-3</h3>
