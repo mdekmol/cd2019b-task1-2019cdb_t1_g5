@@ -1,0 +1,168 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>CMSimfly</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+<script src="tipuesearch_content.js"></script>
+<script src="./../static/jquery.js"></script>
+<link rel="stylesheet" href="./../static/tipuesearch/css/tipuesearch.css">
+<script src="./../static/tipuesearch/tipuesearch_set.js"></script>
+<script src="./../static/tipuesearch/tipuesearch.min.js"></script>
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+
+<script type="text/javascript">
+/*shorthand of $(document).ready(function(){};); */
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+function doSearch() {
+     $('#tipue_search_input').tipuesearch({
+        newWindow: true, minimumLength: 2
+     });
+}
+$(document).ready(doSearch);
+</script>
+
+</head><header><h1>2019cdb_t1_g5 Website</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><div class="tipue_search_group"><input style="width: 6vw;" type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="Press enter key to search" required></div><li><a href='Introduction.html'>Introduction</a><li><a href='Course content.html'>Course content</a><ul><li><a href='week1.html'>week1</a><li><a href='week2.html'>week2</a><li><a href='week3.html'>week3</a><li><a href='week4.html'>week4</a><li><a href='week5.html'>week5</a><li><a href='week6.html'>week6</a><li><a href='week7.html'>week7</a></li></ul><li><a href='Git http&SSH.html'>Git http&SSH</a><li><a href='Preceding operation.html'>Preceding operation</a><ul><li><a href='Directory structure.html'>Directory structure</a><li><a href='Page editing.html'>Page editing</a><li><a href='Insert program.html'>Insert program</a><li><a href='Internet newsletter.html'>Internet newsletter</a><li><a href='Pelican edit.html'>Pelican edit</a></li></ul><li><a href='Q&A.html'>Q&A</a><li><a href='V-rep.html'>V-rep</a><ul><li><a href='Tutorials.html'>Tutorials</a><ul><li><a href='BubbleRob tutorial.html'>BubbleRob tutorial</a></li></li></ul></ul><li><a href='Experience.html'>Experience</a><ul><li><a href='20190222 week1.html'>20190222 week1</a><ul><li><a href='40623201-1.html'>40623201-1</a><li><a href='40623204-1.html'>40623204-1</a><li><a href='40623217-1.html'>40623217-1</a><li><a href='40623223-1.html'>40623223-1</a><li><a href='40623229-1.html'>40623229-1</a><li><a href='40623232-1.html'>40623232-1</a><li><a href='40623242-1.html'>40623242-1</a><li><a href='40623243-1.html'>40623243-1</a><li><a href='40623244-1.html'>40623244-1</a><li><a href='40623248-1.html'>40623248-1</a><li><a href='40423220-1.html'>40423220-1</a></li></ul><li><a href='20190301 week2.html'>20190301 week2</a><li><a href='20190308 week3.html'>20190308 week3</a><ul><li><a href='40623201-3.html'>40623201-3</a><li><a href='40623204-3.html'>40623204-3</a><li><a href='40623217-3.html'>40623217-3</a><li><a href='40623223-3.html'>40623223-3</a><li><a href='40623229-3.html'>40623229-3</a><li><a href='40623232-3.html'>40623232-3</a><li><a href='40623242-3.html'>40623242-3</a><li><a href='40623243-3.html'>40623243-3</a><li><a href='40623244-3.html'>40623244-3</a><li><a href='40623248-3.html'>40623248-3</a><li><a href='40423220-3.html'>40423220-3</a></li></ul><li><a href='20190315 week4.html'>20190315 week4</a><ul><li><a href='40623201-4.html'>40623201-4</a><li><a href='40623204-4.html'>40623204-4</a><li><a href='40623217-4.html'>40623217-4</a><li><a href='40623223-4.html'>40623223-4</a><li><a href='40623229-4.html'>40623229-4</a><li><a href='40623232-4.html'>40623232-4</a><li><a href='40623242-4.html'>40623242-4</a><li><a href='40623243-4.html'>40623243-4</a><li><a href='40623244-4.html'>40623244-4</a><li><a href='40623248-4.html'>40623248-4</a><li><a href='40423220-4.html'>40423220-4</a></li></ul><li><a href='20190322 week5.html'>20190322 week5</a><ul><li><a href='40623201-5.html'>40623201-5</a><li><a href='40623204-5.html'>40623204-5</a><li><a href='40623217-5.html'>40623217-5</a><li><a href='40623223-5.html'>40623223-5</a><li><a href='40623229-5.html'>40623229-5</a><li><a href='40623232-5.html'>40623232-5</a><li><a href='40623242-5.html'>40623242-5</a><li><a href='40623243-5.html'>40623243-5</a><li><a href='40623244-5.html'>40623244-5</a><li><a href='40623248-5.html'>40623248-5</a><li><a href='40423220-5.html'>40423220-5</a></li></ul></nav><section><div id="tipue_search_content">Tutorials << <a href='Tutorials.html'>Previous</a> <a href='Experience.html'>Next</a> >> Experience<br /><h1>BubbleRob tutorial</h1>
+<ul>
+<li><span>add a primitive <strong>sphere</strong> of <strong>diameter 0.2</strong> to the scene with [Menu bar --&gt; Add --&gt; Primitive shape --&gt; Sphere].</span></li>
+<li><span>adjust the <strong>X-size</strong> item to 0.2</span></li>
+<li><span>The created sphere will appear in the visibility layer 1 by default, and be <strong>dynamic and respondable</strong></span></li>
+<li><span>items <strong>Body is respondable</strong> and <strong>Body is dynamic</strong> are enabled</span></li>
+<li><span>enable <strong>Collidable</strong>, <strong>Measurable</strong>, <strong>Renderable</strong> and <strong>Detectable</strong> in the object common properties for that shape</span></li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_20-41-52.png" width="600"/></p>
+<ul>
+<li><span>and enter 0.02 for </span><strong>Along Z</strong><span>. We make sure that the</span><strong>Relative to</strong><span>-item is set to </span><strong>World</strong><span>. Then we click </span><strong>Translate selection</strong><span>.</span></li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_20-44-49.png" width="600"/></p>
+<ul>
+<li>add a proximity sensor<span> [Menu bar --&gt; Add --&gt; Proximity sensor --&gt; Cone type]</span></li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_20-51-04.png" width="600"/></p>
+<ul>
+<li><span>on the </span><strong>orientation</strong><span> tab, we enter 90 for </span><strong>Around Y</strong><span> and for </span><strong>Around Z</strong><span>, then click </span><strong>Rotate selection</strong><span>.</span></li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_20-52-52.png" width="600"/></p>
+<ul>
+<li><span>In the </span>position dialog<span>, on the </span><strong>position</strong><span>tab, we enter 0.1 for </span><strong>X-coord.</strong><span> and 0.12 for </span><strong>Z-coord.</strong></li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_20-54-20.png" width="600"/></p>
+<ul>
+<li><span>adjust items </span><strong>Offset</strong><span> to 0.005, </span><strong>Angle</strong><span> to 30 and </span><strong>Range</strong><span> to 0.15. Then, in the </span>proximity sensor properties<span>, we click </span><strong>Show detection parameters</strong><span>.</span></li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_20-58-19.png" width="600"/></p>
+<ul>
+<li><span>uncheck item </span><strong>Don't allow detections if distance smaller than</strong><span> then close that dialog again.</span></li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-00-22.png" width="600"/></p>
+<ul>
+<li><span>add a pure primitive cylinder with dimensions (0.08,0.08,0.02).</span></li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-06-34.png" width="600"/></p>
+<ul>
+<li><span>set the cylinder's absolute position to (0.05,0.1,0.04) and its absolute orientation to (-90,0,0).</span></li>
+<li><span>As for the body of BubbleRob, we enable<span> </span><strong>Collidable, Measurable, Renderable and Detectable</strong><span> </span>in the object common properties.</span></li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-07-13.png" width="600"/></p>
+<ul>
+<li><span>copy and paste the wheel, and set the absolute<span> </span><strong>Y</strong><span> </span>coordinate of the copy to<span> </span><strong>-0.1</strong>.</span></li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-08-47.png" width="600"/></p>
+<ul>
+<li>add<strong><span> </span>joints</strong><span> </span>(or motors) for the wheels. Click [Menu bar --&gt; Add --&gt; Joint --&gt; Revolute]</li>
+<li>on the <strong>position</strong> tab, click the <strong>Apply to selection button</strong></li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-10-06.png" width="600"/></p>
+<ul>
+<li>on the <strong>orientation</strong> tab,  click the <strong>Apply to selection button</strong></li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-10-49.png" width="600"/></p>
+<ul>
+<li>attach the left wheel to the left motor, the right wheel to the right motor, then attach the two motors to bubbleRob.</li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-13-00.png" width="600"/></p>
+<p></p>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-14-32.png" width="600"/></p>
+<ul>
+<li>add a force sensor object with [Menu bar --&gt; Add --&gt; Force sensor].</li>
+</ul>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-18-27.png" width="600"/></p>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-21-13.png" width="600"/></p>
+<p></p>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-25-21.png" width="600"/></p>
+<p></p>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-25-39.png" width="600"/></p>
+<p></p>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-26-42.png" width="600"/></p>
+<p></p>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_21-47-46.png" width="600"/></p>
+<p></p>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_22-07-39.png" width="600"/></p>
+<p></p>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_22-07-59.png" width="600"/></p>
+<p></p>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_22-24-08.png" width="600"/></p>
+<p></p>
+<p><img alt="" height="311" src="https://mdecadp2018.github.io/site-40623248./../images/p37_22-29-38.png" width="600"/></p>
+<p></p>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_22-31-15.png" width="600"/></p>
+<p></p>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_22-32-07.png" width="600"/></p>
+<p></p>
+<p><img alt="" height="320" src="https://mdecadp2018.github.io/site-40623248./../images/p37_23-09-17.png" width="600"/></p><br />Tutorials << <a href='Tutorials.html'>Previous</a> <a href='Experience.html'>Next</a> >> Experience</div></section></div></body></html>
