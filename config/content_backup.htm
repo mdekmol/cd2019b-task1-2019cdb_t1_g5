@@ -631,18 +631,31 @@ COPY TO CLIPBOARD	</pre>
 <li>on the <strong>position</strong> tab, click the <strong>Apply to selection button</strong></li>
 </ul>
 <p><img alt="" height="426" src="/images/vrep tutorials BubbleRob 11.png" width="800"/></p>
+<p></p>
 <p><img alt="" height="426" src="/images/vrep tutorials BubbleRob 12.png" width="800"/></p>
 <p></p>
 <p><img alt="" height="426" src="/images/vrep tutorials BubbleRob 13.png" width="800"/></p>
+<ul>
+<li>click S<strong>how dynamic parameters</strong> to open the joint dynamics properties dialog. We enable the motor, and check item <strong>Lock motor when target velocity is zero</strong>.</li>
+</ul>
 <p><img alt="" height="426" src="/images/vrep tutorials BubbleRob 14.png" width="800"/></p>
-<p><img alt="" height="426" src="/images/vrep tutorials BubbleRob 15.png" width="800"/></p>
-<p></p>
+<ul>
+<li>add a pure primitive sphere with diameter 0.05 and make the sphere <strong>Collidable, Measurable, Renderable and Detectable.</strong>(-0.07,0,0)</li>
+<li>add a force sensor object with [Menu bar --&gt; Add --&gt; Force sensor].(-0.07,0,0.05)</li>
+<li>attach the slider to the force sensor</li>
+</ul>
 <p><img alt="" height="426" src="/images/vrep tutorials BubbleRob 16.png" width="800"/></p>
-<p></p>
+<ul>
+<li>bubbleRob set the local respondable mask to 11110000</li>
+</ul>
 <p><img alt="" height="426" src="/images/vrep tutorials BubbleRob 17.png" width="800"/></p>
-<p></p>
+<ul>
+<li>bubbleRob_slider set the local respondable mask to 00001111</li>
+</ul>
 <p><img alt="" height="426" src="/images/vrep tutorials BubbleRob 18.png" width="800"/></p>
-<p></p>
+<ul>
+<li>select the two wheels and the slider, and in the shape dynamics dialog we click three times M=M*2 (for selection).</li>
+</ul>
 <p><img alt="" height="426" src="/images/vrep tutorials BubbleRob 19.png" width="800"/></p>
 <p></p>
 <p><img alt="" height="426" src="/images/vrep tutorials BubbleRob 20.png" width="800"/></p>
