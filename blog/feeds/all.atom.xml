@@ -1,5 +1,349 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMSimfly 網際內容管理</title><link href="./" rel="alternate"></link><link href=".%5Cfeeds/all.atom.xml" rel="self"></link><id>./</id><updated>2018-09-11T11:00:00+08:00</updated><entry><title>Python Getting Started</title><link href=".%5C2018-Fall-Python-Getting-Started.html" rel="alternate"></link><published>2018-09-11T11:00:00+08:00</published><updated>2018-09-11T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2018-09-11:.\2018-Fall-Python-Getting-Started.html</id><summary type="html">&lt;p&gt;以下程式架構取自 &lt;a href="http://lab.kmol.info/blog/brython-programming-environment.html"&gt;http://lab.kmol.info/blog/brython-programming-environment.html&lt;/a&gt;, 使用 static/py/ 目錄中的 ace.py 程式定義.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMSimfly 網際內容管理</title><link href="./" rel="alternate"></link><link href=".%5Cfeeds/all.atom.xml" rel="self"></link><id>./</id><updated>2019-04-19T11:00:00+08:00</updated><entry><title>Week9</title><link href=".%5C2018-Fall-w9.html" rel="alternate"></link><published>2019-04-19T11:00:00+08:00</published><updated>2019-04-19T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-04-19:.\2018-Fall-w9.html</id><summary type="html">&lt;p&gt;期中考週：&lt;/p&gt;
+&lt;p&gt;1.學員期中報告影片錄製。&lt;/p&gt;
+&lt;p&gt;2.影片標題與說明。&lt;/p&gt;
+&lt;p&gt;3.學員填寫自評表單。&lt;/p&gt;
+&lt;p&gt;4.個人期中報告影片嵌入網頁。&lt;/p&gt;
+&lt;p&gt;5.學員口頭期中報告。&lt;/p&gt;</summary><content type="html">&lt;p&gt;期中考週：&lt;/p&gt;
+&lt;p&gt;1.學員期中報告影片錄製。&lt;/p&gt;
+&lt;p&gt;2.影片標題與說明。&lt;/p&gt;
+&lt;p&gt;3.學員填寫自評表單。&lt;/p&gt;
+&lt;p&gt;4.個人期中報告影片嵌入網頁。&lt;/p&gt;
+&lt;p&gt;5.學員口頭期中報告。&lt;/p&gt;</content><category term="2018FallCP"></category></entry><entry><title>Week8</title><link href=".%5C2018-Fall-w8.html" rel="alternate"></link><published>2019-04-12T11:00:00+08:00</published><updated>2019-04-12T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-04-12:.\2018-Fall-w8.html</id><summary type="html">&lt;p&gt;上課內容:&lt;/p&gt;
+&lt;p&gt;說明協同產品設計流程的教育目標、Building a clean model V-rep 模擬。&lt;/p&gt;</summary><content type="html">&lt;p&gt;上課內容:&lt;/p&gt;
+&lt;p&gt;說明協同產品設計流程的教育目標、Building a clean model V-rep 模擬。&lt;/p&gt;</content><category term="2018FallCP"></category></entry><entry><title>Week7</title><link href=".%5C2018-Fall-w7.html" rel="alternate"></link><published>2019-04-05T11:00:00+08:00</published><updated>2019-04-05T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-04-05:.\2018-Fall-w7.html</id><summary type="html">&lt;p&gt;清明連假~~
+&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/%E6%B8%85%E6%98%8E%E7%AF%80%E6%94%BE%E5%81%87.jpg
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;清明連假~~
+&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/%E6%B8%85%E6%98%8E%E7%AF%80%E6%94%BE%E5%81%87.jpg
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;</content><category term="2018FallCP"></category></entry><entry><title>Week6</title><link href=".%5C2018-Fall-w6.html" rel="alternate"></link><published>2019-03-29T11:00:00+08:00</published><updated>2019-03-29T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-03-29:.\2018-Fall-w6.html</id><summary type="html">&lt;p&gt;上課內容：&lt;/p&gt;
+&lt;p&gt;bubbleRob V-rep 模擬，延續上周部分。&lt;/p&gt;
+&lt;p&gt;1.Click Add new collection.&lt;/p&gt;
+&lt;p&gt;2.Select bubbleRob  and then click Add in the collection dialog.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2035.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3.Click Add new distance object in  distance dialog.&lt;/p&gt;
+&lt;p&gt;4.Select a distance pair: [collection] collection - all other measurable objects in the scene. &lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2031.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5.Add a graph object Click …&lt;/p&gt;</summary><content type="html">&lt;p&gt;上課內容：&lt;/p&gt;
+&lt;p&gt;bubbleRob V-rep 模擬，延續上周部分。&lt;/p&gt;
+&lt;p&gt;1.Click Add new collection.&lt;/p&gt;
+&lt;p&gt;2.Select bubbleRob  and then click Add in the collection dialog.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2035.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3.Click Add new distance object in  distance dialog.&lt;/p&gt;
+&lt;p&gt;4.Select a distance pair: [collection] collection - all other measurable objects in the scene. &lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2031.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5.Add a graph object Click [Menu bar --&amp;gt; Add --&amp;gt; Graph].&lt;/p&gt;
+&lt;p&gt;6.Rename it to bubbleRob_graph.&lt;/p&gt;
+&lt;p&gt;7.Attach the graph to bubbleRob, and set the absolute coordinates to (0,0,0.005).&lt;/p&gt;
+&lt;p&gt;8.Uncheck Display XYZ-planes.&lt;/p&gt;
+&lt;p&gt;9.Click Add new data stream to record.&lt;/p&gt;
+&lt;p&gt;10.Select Object: absolute x-position for the Data stream type, and graph for the Object / item to record. record the y and z positions.&lt;/p&gt;
+&lt;p&gt;11.Select Distance: segment length for the Data stream type, and bubbleRob_distance for the Object / item to record.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2032.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2033.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;12.Set x y z postion uncheck Visible.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2024.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;13.Click Edit 3D curves, then click Add new curve. 
+bubbleRob_x_pos for the X-value item&lt;/p&gt;
+&lt;p&gt;bubbleRob_y_pos for the Y-value item&lt;/p&gt;
+&lt;p&gt;bubbleRob_z_pos for the Z-value item&lt;/p&gt;
+&lt;p&gt;14.check the Relative to world item and set Curve width to 4.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2034.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;15.Add a pure primitive cylinder:(0.1, 0.1, 0.2). &lt;/p&gt;
+&lt;p&gt;16.Disable Body is dynamic.&lt;/p&gt;
+&lt;p&gt;17.Enable Collidable, Measurable, Renderable and Detectable.&lt;/p&gt;
+&lt;p&gt;18.Copy and paste the cylinder a few times, and move them to positions around BubbleRob.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2036.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;19.Select the model base (BubbleRob) then check items Object is model base and Object/model can transfer or accept DNA.&lt;/p&gt;
+&lt;p&gt;20.Select the two joints, the proximity sensor and the graph, then enable item Igonred by model bounding box and click Apply to selection.&lt;/p&gt;
+&lt;p&gt;21.Select the vision sensor, the two wheels, the slider, and the graph, then enable item Select base of model instead.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2038.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;22.Add a vision sensor,click [Menu bar --&amp;gt; Add --&amp;gt; Vision sensor --&amp;gt; Perspective type].&lt;/p&gt;
+&lt;p&gt;23.At the same position and orientation as BubbleRob's proximity sensor,then attach the vision sensor to the proximity sensor.&lt;/p&gt;
+&lt;p&gt;24.Set the local position and orientation of the vision sensor to (0,0,0).&lt;/p&gt;
+&lt;p&gt;25.Set the Far clipping plane item to 1, and the Resolution x and Resolution y items to 256 and 256.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2039.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;26.Clicking Show filter dialog. We select the filter component Edge detection on work image and click Add filter. We position the newly added filter in second position (one position up, using the up button).&lt;/p&gt;
+&lt;p&gt;27.Double-click the newly added filter component and adjust its Threshold item to 0.2.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2040.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;28.Add a floating view.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2041.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;29.Right-click [Popup menu --&amp;gt; View --&amp;gt; Associate view with selected vision sensor].&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2042.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;30.Select bubbleRob and click [Menu bar --&amp;gt; Add --&amp;gt; Associated child script --&amp;gt; Non threaded].&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2043.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;31.Copy and paste following code into the script editor.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;speedChange_callback&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;ui&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;id&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;newVal&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nx"&gt;speed&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;minMaxSpeed&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;minMaxSpeed&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;minMaxSpeed&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nx"&gt;newVal&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;
+&lt;span class="nx"&gt;end&lt;/span&gt;
+
+&lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;sysCall_init&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="o"&gt;--&lt;/span&gt; &lt;span class="nx"&gt;This&lt;/span&gt; &lt;span class="nx"&gt;is&lt;/span&gt; &lt;span class="nx"&gt;executed&lt;/span&gt; &lt;span class="nx"&gt;exactly&lt;/span&gt; &lt;span class="nx"&gt;once&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;the&lt;/span&gt; &lt;span class="nx"&gt;first&lt;/span&gt; &lt;span class="nx"&gt;time&lt;/span&gt; &lt;span class="k"&gt;this&lt;/span&gt; &lt;span class="nx"&gt;script&lt;/span&gt; &lt;span class="nx"&gt;is&lt;/span&gt; &lt;span class="nx"&gt;executed&lt;/span&gt;
+    &lt;span class="nx"&gt;bubbleRobBase&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;sim&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getObjectAssociatedWithScript&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;sim&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;handle_self&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt; &lt;span class="k"&gt;this&lt;/span&gt; &lt;span class="nx"&gt;is&lt;/span&gt; &lt;span class="nx"&gt;bubbleRob&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;s handle&lt;/span&gt;
+&lt;span class="s1"&gt;    leftMotor=sim.getObjectHandle(&amp;quot;bubbleRob_leftMotor&amp;quot;) -- Handle of the left motor&lt;/span&gt;
+&lt;span class="s1"&gt;    rightMotor=sim.getObjectHandle(&amp;quot;bubbleRob_rightMotor&amp;quot;) -- Handle of the right motor&lt;/span&gt;
+&lt;span class="s1"&gt;    noseSensor=sim.getObjectHandle(&amp;quot;bubbleRob_sensingNose&amp;quot;) -- Handle of the proximity sensor&lt;/span&gt;
+&lt;span class="s1"&gt;    minMaxSpeed={50*math.pi/180,300*math.pi/180} -- Min and max speeds for each motor&lt;/span&gt;
+&lt;span class="s1"&gt;    backUntilTime=-1 -- Tells whether bubbleRob is in forward or backward mode&lt;/span&gt;
+&lt;span class="s1"&gt;    -- Create the custom UI:&lt;/span&gt;
+&lt;span class="s1"&gt;        xml = &amp;#39;&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;ui&lt;/span&gt; &lt;span class="nx"&gt;title&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;#39;..sim.getObjectName(bubbleRobBase)..&amp;#39; speed&amp;quot;&lt;/span&gt; &lt;span class="nx"&gt;closeable&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;false&amp;quot;&lt;/span&gt; &lt;span class="nx"&gt;resizeable&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;false&amp;quot;&lt;/span&gt; &lt;span class="nx"&gt;activate&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;false&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;..[[&lt;/span&gt;
+        &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;hslider&lt;/span&gt; &lt;span class="nx"&gt;minimum&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;0&amp;quot;&lt;/span&gt; &lt;span class="nx"&gt;maximum&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;100&amp;quot;&lt;/span&gt; &lt;span class="nx"&gt;onchange&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;speedChange_callback&amp;quot;&lt;/span&gt; &lt;span class="nx"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;1&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;/&amp;gt;&lt;/span&gt;
+        &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;label&lt;/span&gt; &lt;span class="nx"&gt;text&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class="nx"&gt;style&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;* {margin-left: 300px;}&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;/&amp;gt;&lt;/span&gt;
+        &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="err"&gt;/ui&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;]]&lt;/span&gt;
+    &lt;span class="nx"&gt;ui&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;simUI&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;create&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;xml&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nx"&gt;speed&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;minMaxSpeed&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="nx"&gt;minMaxSpeed&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mf"&gt;0.5&lt;/span&gt;
+    &lt;span class="nx"&gt;simUI&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;setSliderValue&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;ui&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;speed&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;minMaxSpeed&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;minMaxSpeed&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;minMaxSpeed&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]))&lt;/span&gt;
+&lt;span class="nx"&gt;end&lt;/span&gt;
+
+&lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;sysCall_actuation&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="nx"&gt;result&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;sim&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;readProximitySensor&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;noseSensor&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt; &lt;span class="nx"&gt;Read&lt;/span&gt; &lt;span class="nx"&gt;the&lt;/span&gt; &lt;span class="nx"&gt;proximity&lt;/span&gt; &lt;span class="nx"&gt;sensor&lt;/span&gt;
+    &lt;span class="o"&gt;--&lt;/span&gt; &lt;span class="nx"&gt;If&lt;/span&gt; &lt;span class="nx"&gt;we&lt;/span&gt; &lt;span class="nx"&gt;detected&lt;/span&gt; &lt;span class="nx"&gt;something&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;we&lt;/span&gt; &lt;span class="nx"&gt;set&lt;/span&gt; &lt;span class="nx"&gt;the&lt;/span&gt; &lt;span class="nx"&gt;backward&lt;/span&gt; &lt;span class="nx"&gt;mode&lt;/span&gt;:
+    &lt;span class="kt"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;result&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nx"&gt;then&lt;/span&gt; &lt;span class="nx"&gt;backUntilTime&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;sim&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getSimulationTime&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt; &lt;span class="nx"&gt;end&lt;/span&gt; 
+
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;backUntilTime&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;sim&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getSimulationTime&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt; &lt;span class="nx"&gt;then&lt;/span&gt;
+        &lt;span class="o"&gt;--&lt;/span&gt; &lt;span class="nx"&gt;When&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nx"&gt;forward&lt;/span&gt; &lt;span class="nx"&gt;mode&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;we&lt;/span&gt; &lt;span class="nx"&gt;simply&lt;/span&gt; &lt;span class="nx"&gt;move&lt;/span&gt; &lt;span class="nx"&gt;forward&lt;/span&gt; &lt;span class="nx"&gt;at&lt;/span&gt; &lt;span class="nx"&gt;the&lt;/span&gt; &lt;span class="nx"&gt;desired&lt;/span&gt; &lt;span class="nx"&gt;speed&lt;/span&gt;
+        &lt;span class="nx"&gt;sim&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;setJointTargetVelocity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;leftMotor&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;speed&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="nx"&gt;sim&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;setJointTargetVelocity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;rightMotor&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;speed&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;
+        &lt;span class="o"&gt;--&lt;/span&gt; &lt;span class="nx"&gt;When&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nx"&gt;backward&lt;/span&gt; &lt;span class="nx"&gt;mode&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;we&lt;/span&gt; &lt;span class="nx"&gt;simply&lt;/span&gt; &lt;span class="nx"&gt;backup&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nx"&gt;a&lt;/span&gt; &lt;span class="nx"&gt;curve&lt;/span&gt; &lt;span class="nx"&gt;at&lt;/span&gt; &lt;span class="nx"&gt;reduced&lt;/span&gt; &lt;span class="nx"&gt;speed&lt;/span&gt;
+        &lt;span class="nx"&gt;sim&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;setJointTargetVelocity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;leftMotor&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;speed&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="nx"&gt;sim&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;setJointTargetVelocity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;rightMotor&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;speed&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nx"&gt;end&lt;/span&gt;
+&lt;span class="nx"&gt;end&lt;/span&gt;
+
+&lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;sysCall_cleanup&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="nx"&gt;simUI&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;destroy&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;ui&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nx"&gt;end&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="2018FallCP"></category></entry><entry><title>Week5</title><link href=".%5C2018-Fall-w5.html" rel="alternate"></link><published>2019-03-22T11:00:00+08:00</published><updated>2019-03-22T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-03-22:.\2018-Fall-w5.html</id><summary type="html">&lt;p&gt;上課內容：&lt;/p&gt;
+&lt;p&gt;bubbleRob V-rep 模擬。&lt;/p&gt;
+&lt;p&gt;1.Add a primitive sphere of diameter 0.2 to the scene with [Menu bar --&amp;gt; Add --&amp;gt; Primitive shape --&amp;gt; Sphere].&lt;/p&gt;
+&lt;p&gt;2.Rename to it BubbleRob.&lt;/p&gt;
+&lt;p&gt;3.Adjust the X-size item to 0.2.&lt;/p&gt;
+&lt;p&gt;4.Enabled Body is respondable and Body is dynamic .&lt;/p&gt;
+&lt;p&gt;5.Enable Collidable, Measurable, Renderable …&lt;/p&gt;</summary><content type="html">&lt;p&gt;上課內容：&lt;/p&gt;
+&lt;p&gt;bubbleRob V-rep 模擬。&lt;/p&gt;
+&lt;p&gt;1.Add a primitive sphere of diameter 0.2 to the scene with [Menu bar --&amp;gt; Add --&amp;gt; Primitive shape --&amp;gt; Sphere].&lt;/p&gt;
+&lt;p&gt;2.Rename to it BubbleRob.&lt;/p&gt;
+&lt;p&gt;3.Adjust the X-size item to 0.2.&lt;/p&gt;
+&lt;p&gt;4.Enabled Body is respondable and Body is dynamic .&lt;/p&gt;
+&lt;p&gt;5.Enable Collidable, Measurable, Renderable and Detectable in the object common properties for that shape.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2001.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;6.And enter 0.02 for Along Z. We make sure that theRelative to-item is set to World. Then we click Translate selection.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2002.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;7.Add a proximity sensor [Menu bar --&amp;gt; Add --&amp;gt; Proximity sensor --&amp;gt; Cone type].&lt;/p&gt;
+&lt;p&gt;8.Rename to it bubbleRob_sensingNose.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2003.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;9.On the orientation tab, we enter 90 for Around Y and for Around Z, then click Rotate selection.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2004.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;10.In the position dialog, on the positiontab, we enter 0.1 for X-coord. and 0.12 for Z-coord.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2005.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Click Show volume parameter adjust items Offset to 0.005, Angle to 30 and Range to 0.15.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2006.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Click Show detection parameters uncheck item Don't allow detections if distance smaller than.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2007.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;13.Add a pure primitive cylinder with dimensions,size(0.08,0.08,0.02).&lt;/p&gt;
+&lt;p&gt;14.Rename it to bubbleRob_leftWheel.&lt;/p&gt;
+&lt;p&gt;15.Set the cylinder's absolute position to (0.05,0.1,0.04).&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2008.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Set absolute orientation to (-90,0,0).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2009.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;17.Copy and paste the wheel, and set the absolute Y coordinate of the copy to -0.1.&lt;/p&gt;
+&lt;p&gt;18.Rename it to bubbleRob_rightWheel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2010.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;19.Add joints (or motors) for the wheels. Click [Menu bar --&amp;gt; Add --&amp;gt; Joint --&amp;gt; Revolute].&lt;/p&gt;
+&lt;p&gt;20.Rename it to bubbleRob_rightMotor.&lt;/p&gt;
+&lt;p&gt;21.On the position tab, click the Apply to selection button.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2011.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;22.On the orientation tab, click the Apply to selection button.&lt;/p&gt;
+&lt;p&gt;23.We do the same to bubbleRob_leftMotor.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2012.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;24.Attach the bubbleRob_sensingNose to the BubbleRob.&lt;/p&gt;
+&lt;p&gt;25.Attach the left wheel to the left motor ,and attach motor to BubbleRob.&lt;/p&gt;
+&lt;p&gt;26.Attach the right wheel to the right motor ,and attach motor to BubbleRob.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2013.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;27.Click Show dynamic parameters to open the joint dynamics properties dialog. We enable the motor, and check item Lock motor when target velocity is zero.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2014.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;28.Add a pure primitive sphere with diameter 0.05 and make the sphere Collidable, Measurable, Renderable and Detectable. set absolute position to(-0.07,0,0).&lt;/p&gt;
+&lt;p&gt;29.Add a force sensor object with [Menu bar --&amp;gt; Add --&amp;gt; Force sensor]. set absolute position to(-0.07,0,0.25).&lt;/p&gt;
+&lt;p&gt;30.Attach the slider to the force sensor.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2016.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;31.BubbleRob set the local respondable mask to 11110000.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2028.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;32.BubbleRob_slider set the local respondable mask to 00001111.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2029.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;33.Select the two wheels and the slider, and in the shape dynamics dialog we click three times M=M*2 (for selection).&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2019.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;34.Enabled Collidable, Measurable, Renderable and Detectable.&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/vrep%20tutorials%20BubbleRob%2020.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;</content><category term="2018FallCP"></category></entry><entry><title>Week4</title><link href=".%5C2018-Fall-w4.html" rel="alternate"></link><published>2019-03-15T11:00:00+08:00</published><updated>2019-03-15T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-03-15:.\2018-Fall-w4.html</id><summary type="html">&lt;p&gt;上課內容：&lt;/p&gt;
+&lt;p&gt;在可攜程式系統中加上 ungit 、利用 ssh 與 private key 對 Github 倉儲提交推送。&lt;/p&gt;
+&lt;p&gt;在可攜程式系統中加上 ungit
+1.下載 &lt;a href="https://drive.google.com/file/d/1Fx1eigyrTW4FZj_4bYCfen46CJqZBQqn/view"&gt;cdb w4 版本.7z&lt;/a&gt; + &lt;a href="https://drive.google.com/file/d/1G3cEZsw6d7NjqLLgu9jljVNBd6wF-ZrG/view"&gt;nodejs_with_ungit.7z&lt;/a&gt;，&lt;a href="https://2019wcm.blogspot.com/2019/03/ungit.html#links"&gt;ungit 設定說明&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/cdb%20w4%20download.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2.解壓縮後將 nodejs 放到 cd2019_cdb_w4 的 y 內。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/nodejs.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3.更改 start.bat 路徑，可參考&lt;a href="https://2019wcm.blogspot.com/2019/03/ungit.html#links"&gt;ungit 設定說明&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/modify%20start%20w4.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;clone &lt;a href="https://github.com/mdecourse/cmstest"&gt;cmstest&lt;/a&gt; 的倉儲。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/clone%20cmstest.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5.設定 kungit 。&lt;/p&gt;
+&lt;p&gt;&lt;img src= https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/kungit.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;6.打指令 kungit 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/kungit-1.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/kungit-2.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;上課內容：&lt;/p&gt;
+&lt;p&gt;在可攜程式系統中加上 ungit 、利用 ssh 與 private key 對 Github 倉儲提交推送。&lt;/p&gt;
+&lt;p&gt;在可攜程式系統中加上 ungit
+1.下載 &lt;a href="https://drive.google.com/file/d/1Fx1eigyrTW4FZj_4bYCfen46CJqZBQqn/view"&gt;cdb w4 版本.7z&lt;/a&gt; + &lt;a href="https://drive.google.com/file/d/1G3cEZsw6d7NjqLLgu9jljVNBd6wF-ZrG/view"&gt;nodejs_with_ungit.7z&lt;/a&gt;，&lt;a href="https://2019wcm.blogspot.com/2019/03/ungit.html#links"&gt;ungit 設定說明&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/cdb%20w4%20download.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2.解壓縮後將 nodejs 放到 cd2019_cdb_w4 的 y 內。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/nodejs.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3.更改 start.bat 路徑，可參考&lt;a href="https://2019wcm.blogspot.com/2019/03/ungit.html#links"&gt;ungit 設定說明&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/modify%20start%20w4.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;clone &lt;a href="https://github.com/mdecourse/cmstest"&gt;cmstest&lt;/a&gt; 的倉儲。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/clone%20cmstest.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5.設定 kungit 。&lt;/p&gt;
+&lt;p&gt;&lt;img src= https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/kungit.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;6.打指令 kungit 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/kungit-1.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/kungit-2.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;</content><category term="2018FallCP"></category></entry><entry><title>Week3</title><link href=".%5C2018-Fall-w3.html" rel="alternate"></link><published>2019-03-08T11:00:00+08:00</published><updated>2019-03-08T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-03-08:.\2018-Fall-w3.html</id><summary type="html">&lt;p&gt;上課內容:&lt;/p&gt;
+&lt;p&gt;如何使用 ungit 進行檔案推送及版本的推還確認。&lt;/p&gt;
+&lt;p&gt;1.先在y的home內部進行user config綁定。&lt;/p&gt;
+&lt;p&gt;2.到python wsgi.py動態網站更改部分的資料。&lt;/p&gt;
+&lt;p&gt;3.接著開啟ungit後進行commit上傳。&lt;/p&gt;
+&lt;p&gt;4.上傳後再push即可更改成功。&lt;/p&gt;
+&lt;p&gt;5.到warehousing尋找commit recond。&lt;/p&gt;
+&lt;p&gt;如何運用ungit回推版本:&lt;/p&gt;
+&lt;p&gt;1.先開啟ungit，並將某一個歷程編上tag。&lt;/p&gt;
+&lt;p&gt;2.使用指令 git checkout 到所要的歷程，如下圖是到expw4-18，再開啟python wsgi.py確定是否回歸到版本。&lt;/p&gt;
+&lt;p&gt;3.接著回到當前版本需要使用指令 git checkout -- config/content.htm ， 接著用git checkout delprogress回到當前版本。&lt;/p&gt;
+&lt;p&gt;4.再次回到python wsgi.py內察看是否回到當前版本。&lt;/p&gt;</summary><content type="html">&lt;p&gt;上課內容:&lt;/p&gt;
+&lt;p&gt;如何使用 ungit 進行檔案推送及版本的推還確認。&lt;/p&gt;
+&lt;p&gt;1.先在y的home內部進行user config綁定。&lt;/p&gt;
+&lt;p&gt;2.到python wsgi.py動態網站更改部分的資料。&lt;/p&gt;
+&lt;p&gt;3.接著開啟ungit後進行commit上傳。&lt;/p&gt;
+&lt;p&gt;4.上傳後再push即可更改成功。&lt;/p&gt;
+&lt;p&gt;5.到warehousing尋找commit recond。&lt;/p&gt;
+&lt;p&gt;如何運用ungit回推版本:&lt;/p&gt;
+&lt;p&gt;1.先開啟ungit，並將某一個歷程編上tag。&lt;/p&gt;
+&lt;p&gt;2.使用指令 git checkout 到所要的歷程，如下圖是到expw4-18，再開啟python wsgi.py確定是否回歸到版本。&lt;/p&gt;
+&lt;p&gt;3.接著回到當前版本需要使用指令 git checkout -- config/content.htm ， 接著用git checkout delprogress回到當前版本。&lt;/p&gt;
+&lt;p&gt;4.再次回到python wsgi.py內察看是否回到當前版本。&lt;/p&gt;</content><category term="2018FallCP"></category></entry><entry><title>Week2</title><link href=".%5C2018-Fall-w2.html" rel="alternate"></link><published>2019-03-01T11:00:00+08:00</published><updated>2019-03-01T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-03-01:.\2018-Fall-w2.html</id><summary type="html">&lt;p&gt;228連假&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/228%E6%94%BE%E5%81%87.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;228連假&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/228%E6%94%BE%E5%81%87.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;</content><category term="2018FallCP"></category></entry><entry><title>Week1</title><link href=".%5C2018-Fall-w1.html" rel="alternate"></link><published>2019-02-22T11:00:00+08:00</published><updated>2019-02-22T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-02-22:.\2018-Fall-w1.html</id><summary type="html">&lt;p&gt;上課內容：建立 Windows 64 位元可攜程式系統。&lt;/p&gt;
+&lt;p&gt;1.下載 &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt;3.7.2，選擇  &lt;a href="https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe"&gt;Windows x86-64 executable installer&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/python%20download.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/python%20download%203.7.2.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2.安裝 Python ，選擇 Customize installation (客製化安裝)，接著將 Optional Features 內的 Documentation 和 Python test suite 兩個不勾選，再將 Advanced Options 內的路徑縮短為 C:\p37 後，安裝程式。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/install%20python%203.7.2-1.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/install%20python%203.7.2-2.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/install%20python%203.7.2-3.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3.下載 &lt;a href="https://mh-nexus.de/en/hxd/"&gt;HxD&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/hxd%20download.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.打開 HxD 後，更改 pip …&lt;/p&gt;</summary><content type="html">&lt;p&gt;上課內容：建立 Windows 64 位元可攜程式系統。&lt;/p&gt;
+&lt;p&gt;1.下載 &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt;3.7.2，選擇  &lt;a href="https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe"&gt;Windows x86-64 executable installer&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/python%20download.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/python%20download%203.7.2.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2.安裝 Python ，選擇 Customize installation (客製化安裝)，接著將 Optional Features 內的 Documentation 和 Python test suite 兩個不勾選，再將 Advanced Options 內的路徑縮短為 C:\p37 後，安裝程式。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/install%20python%203.7.2-1.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/install%20python%203.7.2-2.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/install%20python%203.7.2-3.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3.下載 &lt;a href="https://mh-nexus.de/en/hxd/"&gt;HxD&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/hxd%20download.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.打開 HxD 後，更改 pip 路徑。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/modify%20pip.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/modify%20pip-1.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5.下載 &lt;a href="https://www.scintilla.org/SciTEDownload.html"&gt;SciTE&lt;/a&gt; ，選擇 Windows 下的[ full download]。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/scite%20download.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;6.修改 code.page 使中文可在 SciTE上顯示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/modify%20scite-1.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/modify%20scite-2.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;7.下載 &lt;a href="https://sourceforge.net/projects/kdiff3/files/"&gt;KDiff&lt;/a&gt; (用來比較差異性的工具)。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/kdiff3%20download.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;8.下載 [TCC] (Tiny C Compiler)。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/tcc%20download.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;9.修改 start.bat 及 stop.bat。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/modify%20start.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/modify%20stop.JPG
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;</content><category term="2018FallCP"></category></entry><entry><title>Python Getting Started</title><link href=".%5C2018-Fall-Python-Getting-Started.html" rel="alternate"></link><published>2018-09-11T11:00:00+08:00</published><updated>2018-09-11T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2018-09-11:.\2018-Fall-Python-Getting-Started.html</id><summary type="html">&lt;p&gt;以下程式架構取自 &lt;a href="http://lab.kmol.info/blog/brython-programming-environment.html"&gt;http://lab.kmol.info/blog/brython-programming-environment.html&lt;/a&gt;, 使用 static/py/ 目錄中的 ace.py 程式定義.&lt;/p&gt;
 
 
 &lt;!-- 導入 FileSaver 與 filereader --&gt;
