@@ -24,10 +24,34 @@
 <v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
-<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20180902120523.11" a="E"><vh>Week1</vh>
+<v t="leo.20180902120523.12"><vh>20190222 w1</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
+<v t="leo.20190413101542.1" a="E"><vh>Week2</vh>
+<v t="leo.20190413101542.2"><vh>20190301 w2</vh></v>
+</v>
+<v t="leo.20190413103121.1" a="E"><vh>Week3</vh>
+<v t="leo.20190413103121.2"><vh>20190308 w3</vh></v>
+</v>
+<v t="leo.20190413103123.1" a="E"><vh>Week4</vh>
+<v t="leo.20190413103123.2"><vh>20190315 w4</vh></v>
+</v>
+<v t="leo.20190413103124.1" a="E"><vh>Week5-6</vh>
+<v t="leo.20190413103124.2"><vh>20190322-29 w5-w6</vh></v>
+</v>
+<v t="leo.20190413104729.1" a="E"><vh>Week7</vh>
+<v t="leo.20190413104729.2"><vh>20190405 w7</vh></v>
+</v>
+<v t="leo.20190413105114.1" a="E"><vh>Week8</vh>
+<v t="leo.20190413105114.2"><vh>20190412 w8</vh></v>
+</v>
+<v t="leo.20190413105720.1" a="E"><vh>Week9</vh>
+<v t="leo.20190413105720.2"><vh>20190419 w9</vh></v>
+</v>
+<v t="leo.20190413101213.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20190413101213.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20180902120523.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -48,15 +72,23 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
+<t tx="leo.20180902120523.10">## BG5分組報告
 
-### KMOLab
+
+### 虎科大機械設計工程系
+
+40623201 王君庭 40623204 張晏晴 40623217 楊傅博
+40623223 任明彥 40623229 陳宥安 40623232 余建杰 40623242 高宇辰 40623243 盧逸誠 40623244 林俊鎧
+40623248 廖柏誠 40423220 林易寬
+
+
+## 指導教授：嚴家銘
 
 &lt;small&gt;
 Created by [2019cdb_t1_g5](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g5)
 &lt;/small&gt;
 
-[CMSimfly 網誌](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5)
+[bg5 網誌](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5)
 
 
 </t>
@@ -69,14 +101,9 @@ Created by [2019cdb_t1_g5](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g
 
 						
 </t>
-<t tx="leo.20180902120523.12"># 投影片快捷鍵
+<t tx="leo.20180902120523.12"># Week 1
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+* 建立屬於自己的可攜程式
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
@@ -326,5 +353,131 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20190413101213.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190413101213.2"># 投影片快捷鍵
+
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20190413101542.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190413101542.2"># Week 2
+
+* 228連假歐~~~
+睡飽來~~~
+
+&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/228%E9%80%A3%E5%81%87%E7%88%BD%E7%9D%A1%E5%9C%96.jpg
+ &lt;width="250" heith="250"&gt;&lt;/a&gt;
+</t>
+<t tx="leo.20190413103121.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190413103121.2"># Week 3
+
+* 如何使用 ungit 進行檔案推送及版本的推還確認
+</t>
+<t tx="leo.20190413103123.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190413103123.2"># Week 4
+
+* 在可攜程式系統中加上 ungit 
+* 利用 ssh 與 private key 對 Github 倉儲提交推送</t>
+<t tx="leo.20190413103124.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190413103124.2"># Week 5-6
+
+* bubbleRob V-rep 模擬
+
+&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/bubbleRob%E6%88%90%E6%9E%9C.gif
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;</t>
+<t tx="leo.20190413104729.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190413104729.2"># Week 7
+
+* 清明連假ㄆㄆ
+
+&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/%E6%B8%85%E6%98%8E%E7%AF%80%E6%94%BE%E5%81%87-2.jpg
+ &lt;width="250" heith="250"&gt;&lt;/a&gt;</t>
+<t tx="leo.20190413105114.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190413105114.2"># Week 8
+
+* 說明協同產品設計流程的教育目標
+* Building a clean model V-rep 模擬
+
+&lt;img src=http://www.coppeliarobotics.com/helpFiles/en/images/modelTut1.jpg
+ &lt;width="250" heith="250"&gt;&lt;/a&gt;</t>
+<t tx="leo.20190413105720.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190413105720.2"># Week 9
+
+* 期中考週
+* 學員期中報告影片錄製
+* 影片標題與說明
+* 學員填寫自評表單
+* 個人期中報告影片嵌入網頁
+* 學員口頭期中報告
+</t>
 </tnodes>
 </leo_file>
