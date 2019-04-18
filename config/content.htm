@@ -850,10 +850,33 @@ end</pre>
 <h3>40623217-1</h3>
 <p>心得:</p>
 <p>這星期為了配合228連假的補課，所以從下午1:20一連貫的上到晚上9:50，雖然這途中有休息，但還是覺得非常的累，這周要做出一個自製的可攜Python系統，這東西除了要到官方的<a href="https://www.python.org/downloads/windows/">python3.7.2</a>下載外，還得載下<a href="https://www.scintilla.org/SciTEDownload.html">SciTe editor</a>的編譯器，為的是能夠在裡面寫下開啟python系統的編譯程式碼，除此之外要再下載一個<a href="https://mh-nexus.de/en/downloads.php?product=HxD20">hxd</a>二維編譯碼，為了要讓執行時可在自己要求的home裡頭執行，最後最重要的是必須了解之前python系統的start、stop批次檔的內容寫的是什麼，光是最後一個就是很煩躁的東西，因為只要弄錯，可能就無法開啟，或是開完後無法關閉，這天光是處理這個就很燒腦了，且還得用global檢查code是否是自己要的，做完後的我只感覺到稍微放鬆，畢竟一件東西最可怕的不是它有多難，而是如何去摸索並得知裏頭的涵義，就算了解了也不會覺得開心，而是一種奇怪的滿足感罷了。</p>
-<p>簡易製作過程:<a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week1.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week1.html</a></p>
-<p><img alt="" height="429" src="/images/start批次.png" width="800"/></p>
-<p><img alt="" height="429" src="/images/stop批次.png" width="800"/></p>
-<h3>40623223-1</h3>
+<p>簡易製作過程如下:</p>
+<p>1.下載python3.7.2。</p>
+<p><img alt="" height="446" src="/images/python可攜步驟1.png" width="800"/></p>
+<p><img alt="" height="492" src="/images/python可攜步驟2.png" width="800"/></p>
+<p><img alt="" height="492" src="/images/python可攜步驟3.png" width="800"/></p>
+<p><img alt="" height="492" src="/images/python可攜步驟4.png" width="800"/></p>
+<p>2.下載HxD二維編輯器。</p>
+<p><img alt="" height="284" src="/images/python可攜步驟5.png" width="800"/></p>
+<p><img alt="" height="60" src="/images/python可攜步驟6.png" width="800"/></p>
+<p><img alt="" height="203" src="/images/python可攜步驟7.png" width="800"/></p>
+<p>3.修改home的位置，查到p37進行修改。</p>
+<p><img alt="" height="412" src="/images/python可攜步驟8.png" width="800"/></p>
+<p>4.修改為y:\p37\python.exe 。</p>
+<p><img alt="" height="412" src="/images/python可攜步驟9.png" width="800"/></p>
+<p>5.下載SciTe編輯器。</p>
+<p><img alt="" height="829" src="/images/python可攜步驟10.png" width="800"/></p>
+<p>6.到選項的Global options file裡更改。</p>
+<p><img alt="" height="477" src="/images/python可攜步驟11.png" width="800"/></p>
+<p>7.用快捷ctrl+f ，打上code.page。</p>
+<p><img alt="" height="529" src="/images/python可攜步驟12.png" width="800"/></p>
+<p>8.將65001的部分設定為開啟，將code.page=0的前方打上#即可關閉。</p>
+<p><img alt="" height="542" src="/images/python可攜步驟13.png" width="800"/></p>
+<p>9.將突下反白的部分新增上去即可，完成我們所需要的start.bat的批次檔。</p>
+<p><img alt="" height="396" src="/images/python可攜步驟14.png" width="800"/></p>
+<p>10.圖下為stop.bat的批次檔。</p>
+<p><img alt="" height="944" src="/images/python可攜步驟15.png" width="800"/></p>
+<p></p><h3>40623223-1</h3>
 <p>才剛開學第一周就要連上8堂課，不管是在肉體還是精神都受到折磨，但是為了放假這都是必要的過程，想到這裡原本已經快要消失的意識又被拉了回來，說起來建個隨身系統真是麻煩，弄到一半心思都飄到下禮拜去了，先是下載下來然後改裡面的目錄，然後再砍掉.....重複，還有一些執行檔的程式設定，看到一半就放棄理解直接去複製以前的來改，我只能說，從頭開始真是不容易......最後還是直接下載老師上傳的檔案。</p>
 <p>補充一下，雖然有直接抓用好的檔案，但隨身系統什麼的我還是有做完的拉，有沒有作對就不知道就是了</p>
 <h3>40623229-1</h3>
