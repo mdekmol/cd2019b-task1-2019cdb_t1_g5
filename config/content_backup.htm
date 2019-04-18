@@ -112,7 +112,7 @@
 <p>3.學員填寫自評表單。</p>
 <p>4.個人期中報告影片嵌入網頁。</p>
 <p>5.學員口頭期中報告。</p>
-<h1>Git http&amp;SSH</h1>
+<h1>Git http&amp;SSH;</h1>
 <p>利用 ssh 對 git 改版, 必須使用  home/.ssh/config 設定, 才能透過 proxy 伺服器進行連線, 由於在 IPv6 環境下, 必須要透過 proxy 才能對 Git 連線, 因此若無 config, 無法對遠端改版</p>
 <h1>Preceding operation</h1>
 <p><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/Directory%20structure.html">Directory structure</a></p>
@@ -576,7 +576,7 @@ COPY TO CLIPBOARD	</pre>
 <p>就是這樣編輯的</p>
 <p>接下來修改這裡</p>
 <p></p>
-<h1>Q&amp;A</h1>
+<h1>Q&amp;A;</h1>
 <h4>Q1 全部頁面會因無法正確解讀而誤刪</h4>
 <p>A1: 在特定情況下, 系統會誤刪 config/content.htm 檔案, 目前在單頁或全部頁面編輯存檔之前, 或將上一版本的 content.htm 存入 content_back.htm, 若 content.htm 內容被程式誤刪, 可以利用備份檔案複製回原始內容後, 再進行後續處理.</p>
 <h4>Q2 頁面標題不支援特殊符號</h4>
@@ -850,10 +850,33 @@ end</pre>
 <h3>40623217-1</h3>
 <p>心得:</p>
 <p>這星期為了配合228連假的補課，所以從下午1:20一連貫的上到晚上9:50，雖然這途中有休息，但還是覺得非常的累，這周要做出一個自製的可攜Python系統，這東西除了要到官方的<a href="https://www.python.org/downloads/windows/">python3.7.2</a>下載外，還得載下<a href="https://www.scintilla.org/SciTEDownload.html">SciTe editor</a>的編譯器，為的是能夠在裡面寫下開啟python系統的編譯程式碼，除此之外要再下載一個<a href="https://mh-nexus.de/en/downloads.php?product=HxD20">hxd</a>二維編譯碼，為了要讓執行時可在自己要求的home裡頭執行，最後最重要的是必須了解之前python系統的start、stop批次檔的內容寫的是什麼，光是最後一個就是很煩躁的東西，因為只要弄錯，可能就無法開啟，或是開完後無法關閉，這天光是處理這個就很燒腦了，且還得用global檢查code是否是自己要的，做完後的我只感覺到稍微放鬆，畢竟一件東西最可怕的不是它有多難，而是如何去摸索並得知裏頭的涵義，就算了解了也不會覺得開心，而是一種奇怪的滿足感罷了。</p>
-<p>簡易製作過程:<a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week1.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week1.html</a></p>
-<p><img alt="" height="429" src="/images/start批次.png" width="800"/></p>
-<p><img alt="" height="429" src="/images/stop批次.png" width="800"/></p>
-<h3>40623223-1</h3>
+<p>簡易製作過程如下:</p>
+<p>1.下載python3.7.2。</p>
+<p><img alt="" height="446" src="/images/python可攜步驟1.png" width="800"/></p>
+<p><img alt="" height="492" src="/images/python可攜步驟2.png" width="800"/></p>
+<p><img alt="" height="492" src="/images/python可攜步驟3.png" width="800"/></p>
+<p><img alt="" height="492" src="/images/python可攜步驟4.png" width="800"/></p>
+<p>2.下載HxD二維編輯器。</p>
+<p><img alt="" height="284" src="/images/python可攜步驟5.png" width="800"/></p>
+<p><img alt="" height="60" src="/images/python可攜步驟6.png" width="800"/></p>
+<p><img alt="" height="203" src="/images/python可攜步驟7.png" width="800"/></p>
+<p>3.修改home的位置，查到p37進行修改。</p>
+<p><img alt="" height="412" src="/images/python可攜步驟8.png" width="800"/></p>
+<p>4.修改為y:\p37\python.exe 。</p>
+<p><img alt="" height="412" src="/images/python可攜步驟9.png" width="800"/></p>
+<p>5.下載SciTe編輯器。</p>
+<p><img alt="" height="829" src="/images/python可攜步驟10.png" width="800"/></p>
+<p>6.到選項的Global options file裡更改。</p>
+<p><img alt="" height="477" src="/images/python可攜步驟11.png" width="800"/></p>
+<p>7.用快捷ctrl+f ，打上code.page。</p>
+<p><img alt="" height="529" src="/images/python可攜步驟12.png" width="800"/></p>
+<p>8.將65001的部分設定為開啟，將code.page=0的前方打上#即可關閉。</p>
+<p><img alt="" height="542" src="/images/python可攜步驟13.png" width="800"/></p>
+<p>9.將突下反白的部分新增上去即可，完成我們所需要的start.bat的批次檔。</p>
+<p><img alt="" height="396" src="/images/python可攜步驟14.png" width="800"/></p>
+<p>10.圖下為stop.bat的批次檔。</p>
+<p><img alt="" height="944" src="/images/python可攜步驟15.png" width="800"/></p>
+<p></p><h3>40623223-1</h3>
 <p>才剛開學第一周就要連上8堂課，不管是在肉體還是精神都受到折磨，但是為了放假這都是必要的過程，想到這裡原本已經快要消失的意識又被拉了回來，說起來建個隨身系統真是麻煩，弄到一半心思都飄到下禮拜去了，先是下載下來然後改裡面的目錄，然後再砍掉.....重複，還有一些執行檔的程式設定，看到一半就放棄理解直接去複製以前的來改，我只能說，從頭開始真是不容易......最後還是直接下載老師上傳的檔案。</p>
 <p>補充一下，雖然有直接抓用好的檔案，但隨身系統什麼的我還是有做完的拉，有沒有作對就不知道就是了</p>
 <h3>40623229-1</h3>
@@ -1032,7 +1055,7 @@ end</pre>
 <p><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623201-8.html"></a></p>
 <h3>40623201-8</h3>
 <h3>40623204-8</h3>
-<p>這週開始模擬 V-rep ，中間我遇到一些問題，都是同組的組員教我的，又因為是英文，所以我花了四堂課才把實習任務2老師給的東西模擬你出來，後來下課後我幫同組一個也不太會的組員做，雖然是做出來，但是因為一些東西更改錯誤，所以影響最後模擬出來的結果，最後是請老師幫忙我才知道我主從設定錯誤而影響組員的東西不能正常移動，後來又發現我沒有把名字改對，所以不能跟程式應對，才使得我第二次模擬出來的東西一直怪怪的。</p><h3>40623217-8</h3>
+<p>這週開始模擬 V-rep ，中間我遇到一些問題，都是同組的組員教我的或告訴我在哪裡。又因為是英文，所以我花了四堂課才把實習任務2老師給的東西翻譯完並成功模擬出來，之後我幫一個同組也不太會的組員模擬，雖然有做出來，但是因為一些東西更改錯誤，所以影響最後模擬出來的結果，最後是請老師幫忙找錯誤，我才知道我主從設定錯誤而影響組員的東西不能正常移動，後來又發現我沒有把名字改對，所以不能跟程式中的名稱應對，才使得我第二次模擬出來的東西一直怪怪的，不能正常移動。</p><h3>40623217-8</h3>
 <p>這周開始第三個的實習任務，當我看完裡面的tutorial雖然是了解他的目的是希望將物件可透過V-rep內部的CAD可接收的內建中轉入到V-rep，可是事實上他仍有限定的要求，因為當物件假定用stl的檔件丟入到V-rep的內部時進行轉換模擬，V-rep會將此圖檔轉換成好幾千甚至上萬的三角形，主要是方便做CAE方面的分析，可是當超過20000個上限時有可能造成無法啟動甚至是不給予支援也說不定，試著用Onshape畫出一張圖並試著用stl檔件轉入，目前可以弄出大概的雛形，只是tutorial後面似乎還有一些東西得用，剩餘的可能要等下星期再接續著做。</p>
 <p>圖片如下:</p>
 <p><img alt="" height="429" src="/images/tutorial3-1.png" width="800"/></p>
@@ -1061,8 +1084,8 @@ end</pre>
 <p><img alt="" height="379" src="/images/40623242_bubbleRob_nocopelete.gif" width="750"/></p>
 <p>最終完成版本！！！！(因為我擺放圓柱的距離差很多，故我將sensor調大)</p>
 <p><img alt="" height="379" src="/images/40623242_bubbleRob_final.gif" width="750"/></p>
-<h3>40623243-8</h3>
-<h3>40623244-8</h3>
+<h3><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">40623243-8</span></span></h3>
+<p>第八週接近期中考，已將Bubble Rob大致上完成，而還有遇到與同學類似的問題，就是數據及物品狀態都已設定無誤，但是感測到牆壁有反應可是不會後退，還在尋找方法解決，其他部分都已完成，像是速度，鏡頭，各種外觀狀態設定等等，都是沒有問題的，到期中考之前，須將其他未完成的部分補齊，並給自評及組員互評，必須盡快完成</p><h3>40623244-8</h3>
 <p>這週做的是如何將繪製好的組合圖在V-rep上建模，在Onshape上繪製好圖後，把檔案輸出成.stl，用V-rep打開檔案，但是在把組合件分開時，一直無法像說明當中那麼順利分開，失敗好多次，仍然不曉得錯在哪裡。後來跟同組組員討論後，才發現在組合零件時，不可以緊貼在一起，要有些許的縫隙，才能在V-rep中分成一件一件的零件。</p>
 <p>Onsahpe圖檔：<a href="https://cad.onshape.com/documents/53e78ed7acea77e6db332cdd/w/d65fb787961884350f09a712/e/378772e44d4c734a71d43188">robotic manipulator</a></p>
 <h3>40623248-8</h3>
