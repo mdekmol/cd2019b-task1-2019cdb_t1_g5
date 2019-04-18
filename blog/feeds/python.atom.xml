@@ -265,26 +265,62 @@ bubbleRob_x_pos for the X-value item&lt;/p&gt;
  &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;</content><category term="2018FallCP"></category></entry><entry><title>Week3</title><link href=".%5C2018-Fall-w3.html" rel="alternate"></link><published>2019-03-08T11:00:00+08:00</published><updated>2019-03-08T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-03-08:.\2018-Fall-w3.html</id><summary type="html">&lt;p&gt;上課內容:&lt;/p&gt;
 &lt;p&gt;如何使用 ungit 進行檔案推送及版本的推還確認。&lt;/p&gt;
 &lt;p&gt;1.先在y的home內部進行user config綁定。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/ungit%20set%201.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/ungit%20set%202.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;2.到python wsgi.py動態網站更改部分的資料。&lt;/p&gt;
 &lt;p&gt;3.接著開啟ungit後進行commit上傳。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/ungit%20commit.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;4.上傳後再push即可更改成功。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/ungit%20push.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;5.到warehousing尋找commit recond。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/ungit%20recond.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;如何運用ungit回推版本:&lt;/p&gt;
 &lt;p&gt;1.先開啟ungit，並將某一個歷程編上tag。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/git%20checkout%201.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;2.使用指令 git checkout 到所要的歷程，如下圖是到expw4-18，再開啟python wsgi.py確定是否回歸到版本。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/git%20checkout%203.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;3.接著回到當前版本需要使用指令 git checkout -- config/content.htm ， 接著用git checkout delprogress回到當前版本。&lt;/p&gt;
-&lt;p&gt;4.再次回到python wsgi.py內察看是否回到當前版本。&lt;/p&gt;</summary><content type="html">&lt;p&gt;上課內容:&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/git%20checkout%204.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.再次回到python wsgi.py內察看是否回到當前版本。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/git%20checkout%202.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;上課內容:&lt;/p&gt;
 &lt;p&gt;如何使用 ungit 進行檔案推送及版本的推還確認。&lt;/p&gt;
 &lt;p&gt;1.先在y的home內部進行user config綁定。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/ungit%20set%201.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/ungit%20set%202.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;2.到python wsgi.py動態網站更改部分的資料。&lt;/p&gt;
 &lt;p&gt;3.接著開啟ungit後進行commit上傳。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/ungit%20commit.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;4.上傳後再push即可更改成功。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/ungit%20push.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;5.到warehousing尋找commit recond。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/ungit%20recond.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;如何運用ungit回推版本:&lt;/p&gt;
 &lt;p&gt;1.先開啟ungit，並將某一個歷程編上tag。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/git%20checkout%201.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;2.使用指令 git checkout 到所要的歷程，如下圖是到expw4-18，再開啟python wsgi.py確定是否回歸到版本。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/git%20checkout%203.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;3.接著回到當前版本需要使用指令 git checkout -- config/content.htm ， 接著用git checkout delprogress回到當前版本。&lt;/p&gt;
-&lt;p&gt;4.再次回到python wsgi.py內察看是否回到當前版本。&lt;/p&gt;</content><category term="2018FallCP"></category></entry><entry><title>Week2</title><link href=".%5C2018-Fall-w2.html" rel="alternate"></link><published>2019-03-01T11:00:00+08:00</published><updated>2019-03-01T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-03-01:.\2018-Fall-w2.html</id><summary type="html">&lt;p&gt;228連假&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/git%20checkout%204.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.再次回到python wsgi.py內察看是否回到當前版本。&lt;/p&gt;
+&lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/git%20checkout%202.png
+ &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;</content><category term="2018FallCP"></category></entry><entry><title>Week2</title><link href=".%5C2018-Fall-w2.html" rel="alternate"></link><published>2019-03-01T11:00:00+08:00</published><updated>2019-03-01T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-03-01:.\2018-Fall-w2.html</id><summary type="html">&lt;p&gt;228連假&lt;/p&gt;
 &lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/228%E6%94%BE%E5%81%87.JPG
  &lt;width="750" heith="357"&gt;&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;228連假&lt;/p&gt;
 &lt;p&gt;&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/228%E6%94%BE%E5%81%87.JPG
