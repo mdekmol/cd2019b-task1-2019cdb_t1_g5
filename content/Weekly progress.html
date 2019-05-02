@@ -1,0 +1,814 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>CMSimfly</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+<script src="tipuesearch_content.js"></script>
+<script src="./../static/jquery.js"></script>
+<link rel="stylesheet" href="./../static/tipuesearch/css/tipuesearch.css">
+<script src="./../static/tipuesearch/tipuesearch_set.js"></script>
+<script src="./../static/tipuesearch/tipuesearch.min.js"></script>
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+
+<script type="text/javascript">
+/*shorthand of $(document).ready(function(){};); */
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+function doSearch() {
+     $('#tipue_search_input').tipuesearch({
+        newWindow: true, minimumLength: 2
+     });
+}
+$(document).ready(doSearch);
+</script>
+
+</head><header><h1>2019cdb_t1_g5 Website</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><div class="tipue_search_group"><input style="width: 6vw;" type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="Press enter key to search" required></div><li><a href='Introduction.html'>Introduction</a><li><a href='Attent & Absence.html'>Attent & Absence</a><li><a href='Course content.html'>Course content</a><ul><li><a href='week1.html'>week1</a><li><a href='week2.html'>week2</a><li><a href='week3.html'>week3</a><li><a href='week4.html'>week4</a><li><a href='week5.html'>week5</a><li><a href='week6.html'>week6</a><li><a href='week7.html'>week7</a><li><a href='week8.html'>week8</a><li><a href='week9.html'>week9</a><li><a href='week10.html'>week10</a></li></ul><li><a href='Git http&SSH.html'>Git http&SSH</a><li><a href='Preceding operation.html'>Preceding operation</a><ul><li><a href='Directory structure.html'>Directory structure</a><li><a href='Page editing.html'>Page editing</a><li><a href='Insert program.html'>Insert program</a><li><a href='Internet newsletter.html'>Internet newsletter</a><li><a href='Pelican edit.html'>Pelican edit</a></li></ul><li><a href='Q&A.html'>Q&A</a><li><a href='V-rep.html'>V-rep</a><ul><li><a href='Tutorials.html'>Tutorials</a><ul><li><a href='BubbleRob tutorial.html'>BubbleRob tutorial</a></li></li></ul></ul><li><a href='Weekly progress.html'>Weekly progress</a><li><a href='Experience.html'>Experience</a><ul><li><a href='20190222 week1.html'>20190222 week1</a><ul><li><a href='40623201-1.html'>40623201-1</a><li><a href='40623204-1.html'>40623204-1</a><li><a href='40623217-1.html'>40623217-1</a><li><a href='40623223-1.html'>40623223-1</a><li><a href='40623229-1.html'>40623229-1</a><li><a href='40623232-1.html'>40623232-1</a><li><a href='40623242-1.html'>40623242-1</a><li><a href='40623243-1.html'>40623243-1</a><li><a href='40623244-1.html'>40623244-1</a><li><a href='40623248-1.html'>40623248-1</a><li><a href='40423220-1.html'>40423220-1</a></li></ul><li><a href='20190301 week2.html'>20190301 week2</a><li><a href='20190308 week3.html'>20190308 week3</a><ul><li><a href='40623201-3.html'>40623201-3</a><li><a href='40623204-3.html'>40623204-3</a><li><a href='40623217-3.html'>40623217-3</a><li><a href='40623223-3.html'>40623223-3</a><li><a href='40623229-3.html'>40623229-3</a><li><a href='40623232-3.html'>40623232-3</a><li><a href='40623242-3.html'>40623242-3</a><li><a href='40623243-3.html'>40623243-3</a><li><a href='40623244-3.html'>40623244-3</a><li><a href='40623248-3.html'>40623248-3</a><li><a href='40423220-3.html'>40423220-3</a></li></ul><li><a href='20190315 week4.html'>20190315 week4</a><ul><li><a href='40623201-4.html'>40623201-4</a><li><a href='40623204-4.html'>40623204-4</a><li><a href='40623217-4.html'>40623217-4</a><li><a href='40623223-4.html'>40623223-4</a><li><a href='40623229-4.html'>40623229-4</a><li><a href='40623232-4.html'>40623232-4</a><li><a href='40623242-4.html'>40623242-4</a><li><a href='40623243-4.html'>40623243-4</a><li><a href='40623244-4.html'>40623244-4</a><li><a href='40623248-4.html'>40623248-4</a><li><a href='40423220-4.html'>40423220-4</a></li></ul><li><a href='20190322 week5.html'>20190322 week5</a><ul><li><a href='40623201-5.html'>40623201-5</a><li><a href='40623204-5.html'>40623204-5</a><li><a href='40623217-5.html'>40623217-5</a><li><a href='40623223-5.html'>40623223-5</a><li><a href='40623229-5.html'>40623229-5</a><li><a href='40623232-5.html'>40623232-5</a><li><a href='40623242-5.html'>40623242-5</a><li><a href='40623243-5.html'>40623243-5</a><li><a href='40623244-5.html'>40623244-5</a><li><a href='40623248-5.html'>40623248-5</a><li><a href='40423220-5.html'>40423220-5</a></li></ul><li><a href='20190329 week6.html'>20190329 week6</a><ul><li><a href='40623201-6.html'>40623201-6</a><li><a href='40623204-6.html'>40623204-6</a><li><a href='40623217-6.html'>40623217-6</a><li><a href='40623223-6.html'>40623223-6</a><li><a href='40623229-6.html'>40623229-6</a><li><a href='40623232-6.html'>40623232-6</a><li><a href='40623242-6.html'>40623242-6</a><li><a href='40623243-6.html'>40623243-6</a><li><a href='40623244-6.html'>40623244-6</a><li><a href='40623248-6.html'>40623248-6</a><li><a href='40423220-6.html'>40423220-6</a></li></ul><li><a href='20190405 week7.html'>20190405 week7</a><li><a href='20190412 week8.html'>20190412 week8</a><ul><li><a href='40623201-8.html'>40623201-8</a><li><a href='40623204-8.html'>40623204-8</a><li><a href='40623217-8.html'>40623217-8</a><li><a href='40623223-8.html'>40623223-8</a><li><a href='40623229-8.html'>40623229-8</a><li><a href='40623232-8.html'>40623232-8</a><li><a href='40623242-8.html'>40623242-8</a><li><a href='40623243-8.html'>40623243-8</a><li><a href='40623244-8.html'>40623244-8</a><li><a href='40623248-8.html'>40623248-8</a><li><a href='40423220-8.html'>40423220-8</a></li></ul><li><a href='20190419 week9.html'>20190419 week9</a><ul><li><a href='40623201-9.html'>40623201-9</a><li><a href='40623204-9.html'>40623204-9</a><li><a href='40623217-9.html'>40623217-9</a><li><a href='40623223-9.html'>40623223-9</a><li><a href='40623229-9.html'>40623229-9</a><li><a href='40623232-9.html'>40623232-9</a><li><a href='40623242-9.html'>40623242-9</a><li><a href='40623243-9.html'>40623243-9</a><li><a href='40623244-9.html'>40623244-9</a><li><a href='40623248-9.html'>40623248-9</a><li><a href='40423220-9.html'>40423220-9</a></li></ul><li><a href='20190426 week10.html'>20190426 week10</a><ul><li><a href='40623201-10.html'>40623201-10</a><li><a href='40623204-10.html'>40623204-10</a><li><a href='40623217-10.html'>40623217-10</a><li><a href='40623223-10.html'>40623223-10</a><li><a href='40623229-10.html'>40623229-10</a><li><a href='40623232-10.html'>40623232-10</a><li><a href='40623242-10.html'>40623242-10</a><li><a href='40623243-10.html'>40623243-10</a><li><a href='40623244-10.html'>40623244-10</a><li><a href='40623248-10.html'>40623248-10</a><li><a href='40423220-10.html'>40423220-10</a></li></ul><li><a href='20190503 week11.html'>20190503 week11</a><ul><li><a href='40623201-11.html'>40623201-11</a><li><a href='40623204-11.html'>40623204-11</a><li><a href='40623217-11.html'>40623217-11</a><li><a href='40623223-11.html'>40623223-11</a><li><a href='40623229-11.html'>40623229-11</a><li><a href='40623232-11.html'>40623232-11</a><li><a href='40623242-11.html'>40623242-11</a><li><a href='40623243-11.html'>40623243-11</a><li><a href='40623244-11.html'>40623244-11</a><li><a href='40623248-11.html'>40623248-11</a><li><a href='40423220-11.html'>40423220-11</a></li></li></ul></ul><li><a href='Midterm Report.html'>Midterm Report</a><ul><li><a href='40623201.html'>40623201</a><li><a href='40623204.html'>40623204</a><li><a href='40623217.html'>40623217</a><li><a href='40623223.html'>40623223</a><li><a href='40623229.html'>40623229</a><li><a href='40623232.html'>40623232</a><li><a href='40623242.html'>40623242</a><li><a href='40623243.html'>40623243</a><li><a href='40623244.html'>40623244</a><li><a href='40623248.html'>40623248</a><li><a href='40423220.html'>40423220</a></li></ul></nav><section><div id="tipue_search_content">BubbleRob tutorial << <a href='BubbleRob tutorial.html'>Previous</a> <a href='Experience.html'>Next</a> >> Experience<br /><h1>Weekly progress</h1>
+<p>40623201</p>
+<table border="2" style="width: 964px; border-color: #000000; height: 121px;">
+<tbody>
+<tr style="height: 49px;">
+<td style="text-align: center; width: 84.8px; height: 49px;"></td>
+<td style="width: 444.2px; text-align: center; height: 49px;">Progress</td>
+<td style="width: 432px; text-align: center; height: 49px;">Internet site</td>
+</tr>
+<tr style="height: 49px;">
+<td style="text-align: center; width: 84.8px; height: 49px;"><span>Week1</span></td>
+<td style="width: 444.2px; text-align: center; height: 49px;"><span>建立 Windows 64 位元可攜程式系統</span></td>
+<td style="width: 432px; text-align: center; height: 49px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week1.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week1.html</a></td>
+</tr>
+<tr style="height: 49px;">
+<td style="text-align: center; width: 84.8px; height: 49px;"><span>Week2</span></td>
+<td style="width: 444.2px; text-align: center; height: 49px;"><span>建立 Windows 64 位元可攜程式系統</span></td>
+<td style="width: 432px; text-align: center; height: 49px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week1.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week1.html</a></td>
+</tr>
+<tr style="height: 49px;">
+<td style="text-align: center; width: 84.8px; height: 49px;"><span>Week3</span></td>
+<td style="width: 444.2px; text-align: center; height: 49px;"><span>使用ungit做檔案推送及版本推還確認</span></td>
+<td style="width: 432px; text-align: center; height: 49px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623201-3.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623201-3.html</a></td>
+</tr>
+<tr style="height: 49px;">
+<td style="text-align: center; width: 84.8px; height: 49px;"><span>Week4</span></td>
+<td style="width: 444.2px; text-align: center; height: 49px;"><span>在可攜程式系統中加上 ungit 、利</span><yt-formatted-string class="style-scope ytd-video-primary-info-renderer" force-default-style="">用 ssh 與 private key 對 Github 倉儲提交推送</yt-formatted-string></td>
+<td style="width: 432px; text-align: center; height: 49px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week4.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week4.html</a></td>
+</tr>
+<tr style="height: 49px;">
+<td style="text-align: center; width: 84.8px; height: 49px;"><span>Week5</span></td>
+<td style="width: 444.2px; text-align: center; height: 49px;"><span>安裝cd2019_cdb_w4套件模組、進行bubbleRob V-rep模擬</span></td>
+<td style="width: 432px; text-align: center; height: 49px;"><span>X</span></td>
+</tr>
+<tr style="height: 49px;">
+<td style="text-align: center; width: 84.8px; height: 49px;"><span>Week6</span></td>
+<td style="width: 444.2px; text-align: center; height: 49px;"><span>進行 bubbleRob  V-rep 模擬</span></td>
+<td style="width: 432px; text-align: center; height: 49px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623201-6.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623201-6.html</a></td>
+</tr>
+<tr style="height: 49px;">
+<td style="text-align: center; width: 84.8px; height: 49px;"><span>Week7</span></td>
+<td style="width: 444.2px; text-align: center; height: 49px;"><span>X</span></td>
+<td style="width: 432px; text-align: center; height: 49px;"><span>X</span></td>
+</tr>
+<tr style="height: 49px;">
+<td style="text-align: center; width: 84.8px; height: 49px;"><span>Week8</span></td>
+<td style="width: 444.2px; text-align: center; height: 49px;"><span>整理bubbleRob V-rep模擬步驟</span></td>
+<td style="width: 432px; text-align: center; height: 49px;">
+<p><a href="https://youtu.be/AM7UNfFY34E">https://youtu.be/AM7UNfFY34E</a></p>
+<p><a href="https://youtu.be/yHP_3PMnb9g">https://youtu.be/yHP_3PMnb9g</a></p>
+<p><a href="https://youtu.be/CZcQFJVFFqY">https://youtu.be/CZcQFJVFFqY</a></p>
+</td>
+</tr>
+<tr style="height: 49px;">
+<td style="text-align: center; width: 84.8px; height: 49px;"><span>Week9</span></td>
+<td style="width: 444.2px; text-align: center; height: 49px;"><span>錄製期中考影片</span></td>
+<td style="width: 432px; text-align: center; height: 49px;"><a href="https://youtu.be/J1MVkrpl6RM">https://youtu.be/J1MVkrpl6RM</a></td>
+</tr>
+<tr style="height: 49px;">
+<td style="text-align: center; width: 84.8px; height: 49px;"><span>Week10</span></td>
+<td style="width: 444.2px; text-align: center; height: 49px;"></td>
+<td style="width: 432px; text-align: center; height: 49px;"></td>
+</tr>
+<tr style="height: 49px;">
+<td style="text-align: center; width: 84.8px; height: 49px;"><span>Week11</span></td>
+<td style="width: 444.2px; text-align: center; height: 49px;"></td>
+<td style="width: 432px; text-align: center; height: 49px;"></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><br/><br/><br/>40623204 </p>
+<table border="2" height="121" style="width: 964px; border-color: #000000; height: 121px;">
+<tbody>
+<tr>
+<td style="text-align: center; width: 84px;"></td>
+<td style="width: 445.6px; text-align: center;">Progress</td>
+<td style="width: 432.8px; text-align: center;">Internet site</td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week1</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week2</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week3</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week4</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week5</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week6</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week7</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week8</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week9</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week10</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week11</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><br/>40623217</p>
+<table border="2" height="121" style="width: 964px; border-color: #000000; height: 121px;">
+<tbody>
+<tr>
+<td style="text-align: center; width: 84px;"></td>
+<td style="width: 445.6px; text-align: center;">Progress</td>
+<td style="width: 432.8px; text-align: center;">Internet site</td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week1</span></td>
+<td style="width: 445.6px; text-align: center;"><span>建立 Windows 64 位元可攜程式系統</span></td>
+<td style="width: 432.8px; text-align: center;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623217-1.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623217-1.html</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week2</span></td>
+<td style="width: 445.6px; text-align: center;"><span>建立 Windows 64 位元可攜程式系統</span></td>
+<td style="width: 432.8px; text-align: center;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623217-1.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623217-1.html</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week3</span></td>
+<td style="width: 445.6px; text-align: center;">利用ungit上傳資料及回推版本</td>
+<td style="width: 432.8px; text-align: center;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week3.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week3.html</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week4</span></td>
+<td style="width: 445.6px; text-align: center;">使用ungit 以及ssh工要</td>
+<td style="width: 432.8px; text-align: center;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week3.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/week3.html</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week5</span></td>
+<td style="width: 445.6px; text-align: center;">開始學習V-rep，製作bubbleRob tutorial</td>
+<td style="width: 432.8px; text-align: center;"><a href="http://www.coppeliarobotics.com/helpFiles/en/bubbleRobTutorial.htm">http://www.coppeliarobotics.com/helpFiles/en/bubbleRobTutorial.htm</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week6</span></td>
+<td style="width: 445.6px; text-align: center;">製作bubbleRob tutorial模擬</td>
+<td style="width: 432.8px; text-align: center;"><a href="https://www.youtube.com/watch?v=4M96bKCxg6o">https://www.youtube.com/watch?v=4M96bKCxg6o</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week7</span></td>
+<td style="width: 445.6px; text-align: center;">X</td>
+<td style="width: 432.8px; text-align: center;">X</td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week8</span></td>
+<td style="width: 445.6px; text-align: center;">實習任務三模擬</td>
+<td style="width: 432.8px; text-align: center;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623217-8.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623217-8.html</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week9</span></td>
+<td style="width: 445.6px; text-align: center;">期中自評成績、錄製期中影片</td>
+<td style="width: 432.8px; text-align: center;"><a href="https://www.youtube.com/watch?v=CwPbQCqIA3Q&amp;t=1s">https://www.youtube.com/watch?v=CwPbQCqIA3Q&amp;t=1s</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week10</span></td>
+<td style="width: 445.6px; text-align: center;">bubbleRob tutorial progress、實習任務三圖檔轉入模擬</td>
+<td style="width: 432.8px; text-align: center;">
+<p style="text-align: center;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623217-10.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623217-10.html</a></p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week11</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><br/>40623223</p>
+<table border="2" height="121" style="width: 964px; border-color: #000000; height: 121px;">
+<tbody>
+<tr>
+<td style="text-align: center; width: 84px;"></td>
+<td style="width: 445.6px; text-align: center;">Progress</td>
+<td style="width: 432.8px; text-align: center;">Internet site</td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week1</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week2</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week3</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week4</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week5</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week6</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week7</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week8</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week9</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week10</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week11</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><br/>40623229</p>
+<table border="2" height="121" style="width: 964px; border-color: #000000; height: 121px;">
+<tbody>
+<tr>
+<td style="text-align: center; width: 84px;"></td>
+<td style="width: 445.6px; text-align: center;">Progress</td>
+<td style="width: 432.8px; text-align: center;">Internet site</td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week1</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week2</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week3</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week4</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week5</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week6</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week7</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week8</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week9</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week10</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week11</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><br/>40623232</p>
+<table border="2" style="width: 964px; border-color: #000000; height: 121px;">
+<tbody>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"></td>
+<td style="width: 445.6px; text-align: center; height: 47px;">Progress</td>
+<td style="width: 432.8px; text-align: center; height: 47px;">Internet site</td>
+</tr>
+<tr style="height: 64px;">
+<td style="text-align: center; width: 84px; height: 64px;"><span>Week1</span></td>
+<td style="width: 445.6px; height: 64px;"><span>建立 Windows 64 位元可攜程式系統</span></td>
+<td style="width: 432.8px; height: 64px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-1.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-1.html</a></td>
+</tr>
+<tr style="height: 48px;">
+<td style="text-align: center; width: 84px; height: 48px;"><span>Week2</span></td>
+<td style="width: 445.6px; height: 48px;"><span>建立 Windows 64 位元可攜程式系統</span></td>
+<td style="width: 432.8px; height: 48px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-1.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-1.html</a></td>
+</tr>
+<tr style="height: 48px;">
+<td style="text-align: center; width: 84px; height: 48px;"><span>Week3</span></td>
+<td style="width: 445.6px; height: 48px;"><span>使用ungit做檔案推送及版本推還確認</span></td>
+<td style="width: 432.8px; height: 48px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-3.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-3.html</a></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week4</span></td>
+<td style="width: 445.6px; height: 47px;"></td>
+<td style="width: 432.8px; height: 47px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-4.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-4.html</a></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week5</span></td>
+<td style="width: 445.6px; height: 47px;"><span>安裝cd2019_cdb_w4套件模組、進行bubbleRob V-rep模擬</span></td>
+<td style="width: 432.8px; height: 47px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-5.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-5.html</a></td>
+</tr>
+<tr style="height: 47.2002px;">
+<td style="text-align: center; width: 84px; height: 47.2002px;"><span>Week6</span></td>
+<td style="width: 445.6px; height: 47.2002px;"><span>製作bubbleRob tutorial模擬</span></td>
+<td style="width: 432.8px; height: 47.2002px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-6.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-6.html</a></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week7</span></td>
+<td style="width: 445.6px; height: 47px;">清明連假</td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week8</span></td>
+<td style="width: 445.6px; height: 47px;"><span>整理bubbleRob V-rep模擬步驟</span></td>
+<td style="width: 432.8px; height: 47px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-8.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232-8.html</a></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week9</span></td>
+<td style="width: 445.6px; height: 47px;"><span>錄製期中考影片</span></td>
+<td style="width: 432.8px; height: 47px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/40623232.html</a></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week10</span></td>
+<td style="width: 445.6px; height: 47px;">研究實習三</td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week11</span></td>
+<td style="width: 445.6px; height: 47px;"></td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><br/>40623242 </p>
+<table border="2" height="121" style="width: 964px; border-color: #000000; height: 121px;">
+<tbody>
+<tr>
+<td style="text-align: center; width: 84px;"></td>
+<td style="width: 445.6px; text-align: center;">Progress</td>
+<td style="width: 432.8px; text-align: center;">Internet site</td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week1</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week2</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week3</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week4</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week5</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week6</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week7</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week8</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week9</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week10</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week11</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><br/>40623243</p>
+<table border="2" height="121" style="width: 964px; border-color: #000000; height: 121px;">
+<tbody>
+<tr>
+<td style="text-align: center; width: 84px;"></td>
+<td style="width: 445.6px; text-align: center;">Progress</td>
+<td style="width: 432.8px; text-align: center;">Internet site</td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week1</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week2</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week3</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week4</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week5</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week6</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week7</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week8</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week9</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week10</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week11</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><br/>40623244</p>
+<table border="2" style="width: 964px; border-color: #000000; height: 121px;">
+<tbody>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"></td>
+<td style="width: 445.6px; text-align: center; height: 47px;">Progress</td>
+<td style="width: 432.8px; text-align: center; height: 47px;">Internet site</td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week1</span></td>
+<td style="width: 445.6px; height: 47px;"></td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week2</span></td>
+<td style="width: 445.6px; height: 47px;"></td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week3</span></td>
+<td style="width: 445.6px; height: 47px;"></td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week4</span></td>
+<td style="width: 445.6px; height: 47px;"></td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+<tr style="height: 48.6001px;">
+<td style="text-align: center; width: 84px; height: 48.6001px;"><span>Week5</span></td>
+<td style="width: 445.6px; height: 48.6001px;"></td>
+<td style="width: 432.8px; height: 48.6001px;"></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week6</span></td>
+<td style="width: 445.6px; height: 47px;"></td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week7</span></td>
+<td style="width: 445.6px; height: 47px;"></td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week8</span></td>
+<td style="width: 445.6px; height: 47px;"></td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week9</span></td>
+<td style="width: 445.6px; height: 47px;"></td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week10</span></td>
+<td style="width: 445.6px; height: 47px;"></td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+<tr style="height: 47px;">
+<td style="text-align: center; width: 84px; height: 47px;"><span>Week11</span></td>
+<td style="width: 445.6px; height: 47px;"></td>
+<td style="width: 432.8px; height: 47px;"></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><br/>40623248</p>
+<table border="2" height="121" style="width: 964px; border-color: #000000; height: 121px;">
+<tbody>
+<tr>
+<td style="text-align: center; width: 84px;"></td>
+<td style="width: 445.6px; text-align: center;">Progress</td>
+<td style="width: 432.8px; text-align: center;">Internet site</td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week1</span></td>
+<td style="width: 445.6px; text-align: center;"><span>建立 Windows 64 位元可攜程式系統</span></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week2</span></td>
+<td style="width: 445.6px; text-align: center;"><span>建立 Windows 64 位元可攜程式系統</span></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week3</span></td>
+<td style="width: 445.6px; text-align: center;"><span>用ungit做推送及版本確認</span></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week4</span></td>
+<td style="width: 445.6px; text-align: center;">建立網站</td>
+<td style="width: 432.8px;"><a href="https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g5">https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g5</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week5</span></td>
+<td style="width: 445.6px; text-align: center;"><span>進行V-rep BubbleRob 模擬，製作模擬過程</span></td>
+<td style="width: 432.8px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/BubbleRob">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/BubbleRob</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week6</span></td>
+<td style="width: 445.6px; text-align: center;"><span>製作模擬V-rep BubbleRob過程</span></td>
+<td style="width: 432.8px;"><a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/BubbleRob">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/BubbleRob</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week7</span></td>
+<td style="width: 445.6px; text-align: center;">X</td>
+<td style="width: 432.8px; text-align: center;">X</td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week8</span></td>
+<td style="width: 445.6px; text-align: center;">錄製<span>V-rep BubbleRob製作影片</span></td>
+<td style="width: 432.8px;"><a href="https://www.youtube.com/watch?v=GWJmfttGDQc">https://www.youtube.com/watch?v=GWJmfttGDQc</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week9</span></td>
+<td style="width: 445.6px; text-align: center;"><span>錄製期中考影片</span></td>
+<td style="width: 432.8px;"><a href="https://www.youtube.com/watch?v=_FaJdrCIBo4">https://www.youtube.com/watch?v=_FaJdrCIBo4</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week10</span></td>
+<td style="width: 445.6px; text-align: center;">模擬foosball</td>
+<td style="width: 432.8px;"><a href="https://www.youtube.com/watch?v=QDmz3Z4HX9k">https://www.youtube.com/watch?v=QDmz3Z4HX9k</a></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week11</span></td>
+<td style="width: 445.6px; text-align: center;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><br/>40423220 </p>
+<table border="2" height="121" style="width: 964px; border-color: #000000; height: 121px;">
+<tbody>
+<tr>
+<td style="text-align: center; width: 84px;"></td>
+<td style="width: 445.6px; text-align: center;">Progress</td>
+<td style="width: 432.8px; text-align: center;">Internet site</td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week1</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week2</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week3</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week4</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week5</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week6</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week7</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week8</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week9</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week10</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+<tr>
+<td style="text-align: center; width: 84px;"><span>Week11</span></td>
+<td style="width: 445.6px;"></td>
+<td style="width: 432.8px;"></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p><br />BubbleRob tutorial << <a href='BubbleRob tutorial.html'>Previous</a> <a href='Experience.html'>Next</a> >> Experience</div></section></div></body></html>
