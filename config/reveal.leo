@@ -24,29 +24,35 @@
 <v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>Week1</vh>
-<v t="leo.20180902120523.12"><vh>20190222 w1</vh></v>
+<v t="leo.20180902120523.11" a="E"><vh>摘要</vh>
+<v t="leo.20180902120523.12"><vh>摘要內容</vh></v>
 </v>
-<v t="leo.20190413101542.1" a="E"><vh>Week2</vh>
-<v t="leo.20190413101542.2"><vh>20190301 w2</vh></v>
+<v t="leo.20190413101542.1" a="E"><vh>執行動機</vh>
+<v t="leo.20190413101542.2"><vh>執行動機</vh></v>
 </v>
-<v t="leo.20190413103121.1" a="E"><vh>Week3</vh>
-<v t="leo.20190413103121.2"><vh>20190308 w3</vh></v>
+<v t="leo.20190413103121.1" a="E"><vh>執行成員</vh>
+<v t="leo.20190613180654.1"><vh>成員分工</vh></v>
 </v>
-<v t="leo.20190413103123.1" a="E"><vh>Week4</vh>
-<v t="leo.20190413103123.2"><vh>20190315 w4</vh></v>
+<v t="leo.20190613181735.1" a="E"><vh>執行成員二</vh>
+<v t="leo.20190613181735.2"><vh>成員分工二</vh></v>
 </v>
-<v t="leo.20190413103124.1" a="E"><vh>Week5-6</vh>
-<v t="leo.20190413103124.2"><vh>20190322-29 w5-w6</vh></v>
+<v t="leo.20190413103123.1" a="E"><vh>執行使用套件</vh>
+<v t="leo.20190413103123.2"><vh>使用軟體</vh></v>
 </v>
-<v t="leo.20190413104729.1" a="E"><vh>Week7</vh>
-<v t="leo.20190413104729.2"><vh>20190405 w7</vh></v>
+<v t="leo.20190413103124.1" a="E"><vh>專案執行過程規劃</vh>
+<v t="leo.20190413103124.2"><vh>規劃過程圖</vh></v>
 </v>
-<v t="leo.20190413105114.1" a="E"><vh>Week8</vh>
-<v t="leo.20190413105114.2"><vh>20190412 w8</vh></v>
+<v t="leo.20190413105114.1" a="E"><vh>球檯設計</vh>
+<v t="leo.20190413105114.2"><vh>球檯繪製</vh></v>
 </v>
-<v t="leo.20190413105720.1" a="E"><vh>Week9</vh>
-<v t="leo.20190413105720.2"><vh>20190419 w9</vh></v>
+<v t="leo.20190613173355.1" a="E"><vh>物件導入</vh>
+<v t="leo.20190613173355.2"><vh>導入步驟</vh></v>
+</v>
+<v t="leo.20190413104729.1" a="E"><vh>送球機構</vh>
+<v t="leo.20190613173236.1"><vh>送球機構設計</vh></v>
+</v>
+<v t="leo.20190613175620.1" a="E"><vh>功能展示</vh>
+<v t="leo.20190613175620.2"><vh>手足球功能</vh></v>
 </v>
 <v t="leo.20190413101213.1" a="E"><vh>快捷鍵</vh>
 <v t="leo.20190413101213.2"><vh>投影片快捷鍵</vh></v>
@@ -101,9 +107,11 @@ Created by [2019cdb_t1_g5](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g
 
 						
 </t>
-<t tx="leo.20180902120523.12"># Week 1
+<t tx="leo.20180902120523.12">* 摘要
 
-* 建立屬於自己的可攜程式
+*這學期主要是運用Onshape繪製手足球並利用V-rep做動態模擬，由於無法將已進球門的球重新放回球場內，需要做個機構將球送回球場內，我們採用兩段式的連桿機構，我們加以調整高度，使其高度可以將球送回到球桌上，在V-rep上模擬可將球順利的送回到球場內，以進行下一場遊戲。
+
+* 以球場的部分來說，將設計好的Onshape匯入V-rep內，進行解開劃分多個物件，且旋轉軸及平移軸置入各桿件，再把物件的主從連接、物件屬性設定完成，最後寫入程式達到預想結果。
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
@@ -381,14 +389,9 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190413101542.2"># Week 2
+<t tx="leo.20190413101542.2">* 執行動機
 
-* 228連假歐~~~
-睡飽來~~~
-
-&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/228%E9%80%A3%E5%81%87%E7%88%BD%E7%9D%A1%E5%9C%96.jpg
- &lt;width="250" heith="250"&gt;&lt;/a&gt;
-</t>
+本專題為協同產品設計的簡單範例，運用我們所上過的工具，透過分組的方式，來完成一個可程式控制的機構，我們需要在這過程中解決任何的衝突發生，以及更精進我們的專業知識。</t>
 <t tx="leo.20190413103121.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -397,10 +400,6 @@ vertical: body pane on the botton</t>
 
 
 						
-</t>
-<t tx="leo.20190413103121.2"># Week 3
-
-* 如何使用 ungit 進行檔案推送及版本的推還確認
 </t>
 <t tx="leo.20190413103123.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -411,10 +410,16 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190413103123.2"># Week 4
+<t tx="leo.20190413103123.2">* 使用軟體
 
-* 在可攜程式系統中加上 ungit 
-* 利用 ssh 與 private key 對 Github 倉儲提交推送</t>
+Onshape、
+V-rep、
+Github、
+Pyslvs、
+SolveSpace、
+
+
+</t>
 <t tx="leo.20190413103124.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -424,12 +429,16 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190413103124.2"># Week 5-6
+<t tx="leo.20190413103124.2">* 規劃程序
 
-* bubbleRob V-rep 模擬
-
-&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/bubbleRob%E6%88%90%E6%9E%9C.gif
- &lt;width="750" heith="357"&gt;&lt;/a&gt;</t>
+分配工作 --&gt; 
+找資料 --&gt;
+開始各自工作 --&gt;
+與各組員討論問題 --&gt;
+想法實體化 --&gt;
+組合--&gt;
+完成
+</t>
 <t tx="leo.20190413104729.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -439,12 +448,6 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190413104729.2"># Week 7
-
-* 清明連假ㄆㄆ
-
-&lt;img src=https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/images/%E6%B8%85%E6%98%8E%E7%AF%80%E6%94%BE%E5%81%87-2.jpg
- &lt;width="250" heith="250"&gt;&lt;/a&gt;</t>
 <t tx="leo.20190413105114.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -454,14 +457,25 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190413105114.2"># Week 8
+<t tx="leo.20190413105114.2">* 球檯
 
-* 說明協同產品設計流程的教育目標
-* Building a clean model V-rep 模擬
+[參數設計和繪圖](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/%E5%8F%83%E6%95%B8%E8%A8%AD%E8%A8%88%E8%88%87%E7%B9%AA%E5%9C%96.html)
 
-&lt;img src=http://www.coppeliarobotics.com/helpFiles/en/images/modelTut1.jpg
- &lt;width="250" heith="250"&gt;&lt;/a&gt;</t>
-<t tx="leo.20190413105720.1">&lt;section data-markdown&gt;
+[零組件尺寸分析](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/%E9%9B%B6%E7%B5%84%E4%BB%B6%E5%B0%BA%E5%AF%B8%E5%88%86%E6%9E%90.html)
+
+[細部設計和BOM圖](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/%E7%B4%B0%E9%83%A8%E8%A8%AD%E8%A8%88%E8%88%87%20BOM.html)
+
+
+
+</t>
+<t tx="leo.20190613173236.1">* 送球機構設計模擬
+
+[送球機構](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/%E9%80%81%E7%90%83%E6%A9%9F%E6%A7%8B%E8%A8%AD%E8%A8%88%E8%88%87%E6%A8%A1%E6%93%AC.html)
+
+
+
+</t>
+<t tx="leo.20190613173355.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -470,14 +484,60 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190413105720.2"># Week 9
+<t tx="leo.20190613173355.2">* 物件設定及導入
 
-* 期中考週
-* 學員期中報告影片錄製
-* 影片標題與說明
-* 學員填寫自評表單
-* 個人期中報告影片嵌入網頁
-* 學員口頭期中報告
+[物件導入](https://40623217.github.io/Collaborative-Product-Design-Practice/content/Object%20setting%20step.html)
+
 </t>
+<t tx="leo.20190613175620.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190613175620.2">* 手足球功能介紹
+
+[功能展示及說明](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/%E7%B3%BB%E7%B5%B1%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA.html)
+
+
+
+</t>
+<t tx="leo.20190613180654.1">* 執行成員一
+
+40623201 王君庭 執行規劃、專案報告書
+
+40623204 張晏晴 參數設計與繪圖、細部設計與 BOM
+
+40623217 楊傅博	V-rep 動態模擬(手足球)
+
+40623223 任明彥	零組件尺寸分析
+
+40623229 陳宥安 無
+
+40623232 余建杰	細部設計與 BOM
+</t>
+<t tx="leo.20190613181735.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190613181735.2">* 執行成員二
+
+40623242 高宇辰	執行規劃、V-rep 動態模擬(手足球)、專案口頭簡報
+
+40623243 盧逸誠	細部設計與 BOM
+
+40623244 林俊鎧	V-rep 動態模擬(送球機構)
+
+40623248 廖柏誠	參數設計與繪圖、細部設計與 BOM、V-rep 動態模擬(送球機構)
+
+40423220 林易寬	無</t>
 </tnodes>
 </leo_file>
