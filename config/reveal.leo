@@ -111,7 +111,9 @@ Created by [2019cdb_t1_g5](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g
 
 * 我們這學期主要是運用Onshape繪製手足球並利用V-rep做動態模擬，由於無法將已進球門的球重新放回球場內，需要做個機構將球送回球場內，我們採用兩段式的連桿機構，我們加以調整高度，使其高度可以將球送回到球桌上，在V-rep上模擬可將球順利的送回到球場內，以進行下一場遊戲。
 
-* 以球場的部分來說，將設計好的Onshape匯入V-rep內，進行解開劃分多個物件，且旋轉軸及平移軸置入各桿件，再把物件的主從連接、物件屬性設定完成，最後寫入程式達到預想結果。</t>
+* 以球場的部分來說，將設計好的Onshape匯入V-rep內，進行解開劃分多個物件，且旋轉軸及平移軸置入各桿件，再把物件的主從連接、物件屬性設定完成，最後寫入程式達到預想結果。
+
+</t>
 <t tx="leo.20180902120523.13">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -393,7 +395,9 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190413101542.2">動機
 
-* 本專題為協同產品設計的簡單範例，運用我們所上過的工具，透過分組的方式，來完成一個可程式控制的機構，我們需要在這過程中解決任何的衝突發生，以及更精進我們的專業知識。</t>
+* 本專題為協同產品設計的簡單範例，運用我們所上過的工具，透過分組的方式，來完成一個可程式控制的機構，我們需要在這過程中解決任何的衝突發生，以及更精進我們的專業知識。
+
+</t>
 <t tx="leo.20190413103121.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -414,9 +418,13 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190413103123.2">使用軟體
 
-Onshape、
-V-rep、
-Pyslvs、
+Onshape
+、
+V-rep
+
+、
+Pyslvs
+、
 Github、
 SolveSpace
 </t>
@@ -437,7 +445,9 @@ SolveSpace
 與各組員討論問題 --&gt;
 想法實體化 --&gt;
 組合--&gt;
-完成</t>
+完成
+
+</t>
 <t tx="leo.20190413104729.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -462,10 +472,14 @@ SolveSpace
 
 [參數設計與繪圖](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/%E5%8F%83%E6%95%B8%E8%A8%AD%E8%A8%88%E8%88%87%E7%B9%AA%E5%9C%96.html)
 
-[細部設計與 BOM](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/%E7%B4%B0%E9%83%A8%E8%A8%AD%E8%A8%88%E8%88%87%20BOM.html)</t>
+[細部設計與 BOM](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/%E7%B4%B0%E9%83%A8%E8%A8%AD%E8%A8%88%E8%88%87%20BOM.html)
+
+</t>
 <t tx="leo.20190613173236.1">送球機構設計模擬
 
-[送球機構](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/%E9%80%81%E7%90%83%E6%A9%9F%E6%A7%8B%E8%A8%AD%E8%A8%88%E8%88%87%E6%A8%A1%E6%93%AC.html)</t>
+[送球機構](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/%E9%80%81%E7%90%83%E6%A9%9F%E6%A7%8B%E8%A8%AD%E8%A8%88%E8%88%87%E6%A8%A1%E6%93%AC.html)
+
+</t>
 <t tx="leo.20190613173355.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -477,7 +491,9 @@ SolveSpace
 </t>
 <t tx="leo.20190613173355.2">物件導入V-rep
 
-[導入詳解](https://40623217.github.io/Collaborative-Product-Design-Practice/content/Object%20setting%20step.html)</t>
+[導入詳解](https://40623217.github.io/Collaborative-Product-Design-Practice/content/Object%20setting%20step.html)
+
+</t>
 <t tx="leo.20190613175620.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -489,7 +505,9 @@ SolveSpace
 </t>
 <t tx="leo.20190613175620.2">手足球功能展示
 
-[功能](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/%E7%B3%BB%E7%B5%B1%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA.html)</t>
+[功能](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g5/content/%E7%B3%BB%E7%B5%B1%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA.html)
+
+</t>
 <t tx="leo.20190613180654.1">執行成員一
 
 40623201 王君庭	執行規劃、專案報告書
@@ -500,9 +518,11 @@ SolveSpace
 
 40623223 任明彥	零組件尺寸分析
 
-40623229 陳宥安 無
+40623229 陳宥安 手足球零件圖
 
-40623232 余建杰	細部設計與 BOM</t>
+40623232 余建杰	細部設計與 BOM
+
+</t>
 <t tx="leo.20190613181735.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -522,6 +542,8 @@ SolveSpace
 
 40623248 廖柏誠	參數設計與繪圖、細部設計與 BOM、V-rep 動態模擬(送球機構)
 
-40423220 林易寬 無</t>
+40423220 林易寬 無
+
+</t>
 </tnodes>
 </leo_file>
