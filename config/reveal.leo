@@ -419,11 +419,15 @@ vertical: body pane on the botton</t>
 <t tx="leo.20190413103123.2">使用軟體
 
 Onshape
+
 、
 V-rep
+
 
+
 、
 Pyslvs
+
 、
 Github、
 SolveSpace
@@ -518,7 +522,7 @@ SolveSpace
 
 40623223 任明彥	零組件尺寸分析
 
-40623229 陳宥安 手足球零件圖
+40623229 陳宥安 無
 
 40623232 余建杰	細部設計與 BOM
 
