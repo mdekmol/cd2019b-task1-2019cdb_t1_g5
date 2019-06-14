@@ -27,6 +27,9 @@
 <v t="leo.20180902120523.11" a="E"><vh>摘要</vh>
 <v t="leo.20180902120523.12"><vh>摘要內容</vh></v>
 </v>
+<v t="leo.20190614120034.1" a="E"><vh>球台摘要</vh>
+<v t="leo.20190614120034.2"><vh>摘要內容二</vh></v>
+</v>
 <v t="leo.20190413101542.1" a="E"><vh>執行動機</vh>
 <v t="leo.20190413101542.2"><vh>執行動機</vh></v>
 </v>
@@ -64,7 +67,7 @@
 <v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -111,7 +114,7 @@ Created by [2019cdb_t1_g5](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g
 
 * 我們這學期主要是運用Onshape繪製手足球並利用V-rep做動態模擬，由於無法將已進球門的球重新放回球場內，需要做個機構將球送回球場內，我們採用兩段式的連桿機構，我們加以調整高度，使其高度可以將球送回到球桌上，在V-rep上模擬可將球順利的送回到球場內，以進行下一場遊戲。
 
-* 以球場的部分來說，將設計好的Onshape匯入V-rep內，進行解開劃分多個物件，且旋轉軸及平移軸置入各桿件，再把物件的主從連接、物件屬性設定完成，最後寫入程式達到預想結果。
+
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section data-markdown&gt;
@@ -418,17 +421,9 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190413103123.2">使用軟體
 
-Onshape
-
-、
-V-rep
-
-
-
-、
-Pyslvs
-
-、
+Onshape、
+V-rep、
+Pyslvs、
 Github、
 SolveSpace
 </t>
@@ -549,5 +544,17 @@ SolveSpace
 40423220 林易寬 無
 
 </t>
+<t tx="leo.20190614120034.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190614120034.2">* 以球場的部分來說，將設計好的Onshape匯入V-rep內，進行解開劃分多個物件，且旋轉軸及平移軸置入各桿件，再把物件的主從連接、物件屬性設定完成，最後寫入程式達到預想結果。</t>
 </tnodes>
 </leo_file>
